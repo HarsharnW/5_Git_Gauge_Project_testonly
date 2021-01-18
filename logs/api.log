@@ -1,0 +1,806 @@
+06-10-2020 21:54:47.884 [Gauge] [INFO] Watching directory: C:\Automation\GaugeProject\specs
+06-10-2020 21:54:47.886 [Gauge] [DEBUG] Found 1 files
+06-10-2020 21:54:47.920 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+06-10-2020 21:54:47.979 [Gauge] [INFO] Initializing specs cache with 1 specs
+06-10-2020 21:54:47.979 [Gauge] [DEBUG] Adding specs from C:\Automation\GaugeProject\specs\example.spec
+06-10-2020 21:54:47.979 [Gauge] [INFO] Initializing steps cache with 1 steps
+06-10-2020 21:54:47.991 [Gauge] [INFO] Gauge daemon initialized and listening on port: 62682
+06-10-2020 21:54:48.769 [Gauge] [DEBUG] Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+06-10-2020 21:54:48.775 [Gauge] [DEBUG] Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"C:\\Users\\Dell\\AppData\\Roaming\\gauge\\plugins\\java\\0.7.4\\libs" > 
+06-10-2020 21:54:48.884 [Gauge] [DEBUG] Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+06-10-2020 21:54:48.891 [Gauge] [DEBUG] Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"C:\\Users\\Dell\\AppData\\Roaming\\gauge\\plugins\\java\\0.7.4\\libs" > 
+06-10-2020 21:55:20.805 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 21:55:36.566 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are \"aeiou\"." > 
+06-10-2020 21:55:36.585 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+06-10-2020 21:55:36.719 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+06-10-2020 21:55:36.732 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+06-10-2020 21:55:36.737 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word \"gauge\" has \"3\" vowels." > 
+06-10-2020 21:55:36.739 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+06-10-2020 21:55:36.741 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+06-10-2020 21:55:36.741 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+06-10-2020 21:55:36.742 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels" hasInlineTable:true > 
+06-10-2020 21:55:36.753 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:55:36.754 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+06-10-2020 21:55:36.754 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+06-10-2020 21:57:50.953 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:57:50.968 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+06-10-2020 21:57:51.022 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:57:51.022 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:57:51.023 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:57:51.023 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:57:51.035 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:57:51.035 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:57:51.036 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:57:51.037 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:57:51.037 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:57:51.037 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:57:51.808 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:57:51.808 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:57:51.815 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:57:51.815 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:57:51.816 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:57:51.816 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+06-10-2020 21:57:51.816 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:57:51.816 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:57:53.738 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 21:57:53.743 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 21:57:53.892 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:57:53.892 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:57:53.892 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:57:53.892 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:57:54.771 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:57:54.771 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:57:54.776 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:57:54.776 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:57:54.777 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:57:54.777 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+06-10-2020 21:57:54.780 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:57:54.780 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:57:55.394 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click on" > 
+06-10-2020 21:57:55.399 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click on" parameterizedStepValue:"Click on" > > 
+06-10-2020 21:57:58.292 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:57:58.297 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:57:58.297 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:57:58.297 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:57:58.298 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:57:58.298 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:57:58.298 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:57:58.298 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:57:59.379 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click on s" > 
+06-10-2020 21:57:59.385 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click on s" parameterizedStepValue:"Click on s" > > 
+06-10-2020 21:57:59.385 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click on s" > 
+06-10-2020 21:57:59.385 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click on s" parameterizedStepValue:"Click on s" > > 
+06-10-2020 21:57:59.679 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:57:59.690 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:57:59.690 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:57:59.690 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:57:59.691 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:57:59.692 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+06-10-2020 21:57:59.692 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:57:59.692 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:58:00.503 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click on Sign" > 
+06-10-2020 21:58:00.505 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click on Sign" parameterizedStepValue:"Click on Sign" > > 
+06-10-2020 21:58:00.506 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click on Sign" > 
+06-10-2020 21:58:00.507 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click on Sign" parameterizedStepValue:"Click on Sign" > > 
+06-10-2020 21:58:02.253 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:58:02.263 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:58:02.264 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:58:02.264 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:58:02.266 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:58:02.267 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:58:02.269 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:58:02.269 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:58:02.723 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click on Sign in" > 
+06-10-2020 21:58:02.731 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click on Sign in" parameterizedStepValue:"Click on Sign in" > > 
+06-10-2020 21:58:02.731 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click on Sign in" > 
+06-10-2020 21:58:02.732 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click on Sign in" parameterizedStepValue:"Click on Sign in" > > 
+06-10-2020 21:58:03.470 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:58:03.482 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:58:03.482 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:58:03.482 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:58:03.483 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:58:03.484 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:58:03.484 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:58:03.484 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:58:05.444 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:58:05.444 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:58:05.454 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:58:05.454 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:58:05.459 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:58:05.459 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:58:05.459 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:58:05.459 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:58:06.432 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click on Sign in button" > 
+06-10-2020 21:58:06.432 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > > 
+06-10-2020 21:58:06.435 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click on Sign in button" > 
+06-10-2020 21:58:06.435 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > > 
+06-10-2020 21:58:20.048 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 21:58:20.111 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 21:58:21.720 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 21:58:21.720 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 21:58:22.605 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:58:22.612 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > > 
+06-10-2020 21:58:22.612 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:58:22.612 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:58:23.306 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:58:23.316 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > > 
+06-10-2020 21:58:23.316 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:58:23.316 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:58:24.223 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter" > 
+06-10-2020 21:58:24.223 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter" parameterizedStepValue:"Enter" > > 
+06-10-2020 21:58:29.801 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:58:29.817 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+06-10-2020 21:58:29.817 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:58:29.817 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:58:29.818 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 21:58:29.818 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+06-10-2020 21:58:29.818 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 21:58:29.818 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 21:58:30.534 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter user" > 
+06-10-2020 21:58:30.538 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter user" parameterizedStepValue:"Enter user" > > 
+06-10-2020 21:58:32.941 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter u" > 
+06-10-2020 21:58:32.948 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter u" parameterizedStepValue:"Enter u" > > 
+06-10-2020 22:22:33.209 [Gauge] [INFO] Spec file removed: C:\Automation\GaugeProject\specs\example.spec
+06-10-2020 22:45:32.247 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:45:32.322 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:45:42.053 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:45:42.092 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:45:49.476 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:45:49.578 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:45:55.438 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:45:55.577 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:46:12.847 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:46:12.953 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:51:15.947 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:51:16.186 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 23:07:58.622 [Gauge] [INFO] Closing connection [127.0.0.1:62683] cause: read tcp 127.0.0.1:62682->127.0.0.1:62683: wsarecv: An existing connection was forcibly closed by the remote host.
+06-10-2020 23:07:58.694 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 7640 has terminated.
+DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:32.918 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:32.918 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:32.918 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.142 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.146 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.146 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.146 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.163 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.166 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.166 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.166 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.167 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.182 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.182 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.182 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.200 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.203 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.203 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.203 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.204 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.205 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.635 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.642 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.642 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.642 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.643 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.647 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.649 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.649 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.650 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.650 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.677 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.678 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.678 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.678 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.700 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.706 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.707 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.707 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.724 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.724 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.724 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.724 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.741 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.741 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.741 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.741 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.758 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.759 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:33.759 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:33.759 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:42.036 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:45:42.091 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:45:42.423 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:42.424 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:42.509 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:42.509 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:42.559 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:42.567 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:42.568 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:42.568 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:42.610 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:42.612 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:42.612 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:42.612 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:42.655 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:42.658 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:42.658 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:42.658 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:44.139 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 22:45:44.139 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > allSteps:<> > 
+06-10-2020 22:45:44.140 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 22:45:44.140 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 22:45:44.141 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 22:45:44.143 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > allSteps:<> > 
+06-10-2020 22:45:44.143 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 22:45:44.143 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 22:45:47.320 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 22:45:47.325 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > allSteps:<> > 
+06-10-2020 22:45:47.325 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 22:45:47.326 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 22:45:47.327 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 22:45:47.328 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > allSteps:<> > 
+06-10-2020 22:45:47.328 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 22:45:47.328 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 22:45:47.641 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter E" > 
+06-10-2020 22:45:47.641 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter E" parameterizedStepValue:"Enter E" > > 
+06-10-2020 22:45:47.644 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter E" > 
+06-10-2020 22:45:47.644 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter E" parameterizedStepValue:"Enter E" > > 
+06-10-2020 22:45:48.206 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Emai" > 
+06-10-2020 22:45:48.207 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Emai" parameterizedStepValue:"Enter Emai" > > 
+06-10-2020 22:45:48.208 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Emai" > 
+06-10-2020 22:45:48.208 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Emai" parameterizedStepValue:"Enter Emai" > > 
+06-10-2020 22:45:48.826 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email" > 
+06-10-2020 22:45:48.837 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email" parameterizedStepValue:"Enter Email" > > 
+06-10-2020 22:45:49.476 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:45:49.578 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:45:51.303 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:51.312 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:51.312 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:51.313 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:51.337 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:51.345 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:51.347 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:51.349 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:51.349 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:51.349 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:51.350 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:51.364 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:51.364 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:51.364 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:51.373 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:51.381 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:51.381 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:51.381 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:51.382 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:51.397 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:51.397 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:51.397 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:51.398 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:51.399 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:51.416 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:51.416 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:51.422 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+06-10-2020 22:45:51.422 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+06-10-2020 22:45:51.787 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 22:45:51.791 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > allSteps:<stepValue:"Enter Email" parameterizedStepValue:"Enter Email" > > 
+06-10-2020 22:45:51.791 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 22:45:51.791 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 22:45:52.905 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 22:45:52.907 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Enter Email" parameterizedStepValue:"Enter Email" > allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > > 
+06-10-2020 22:45:52.907 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 22:45:52.907 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 22:45:52.908 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 22:45:52.910 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > allSteps:<stepValue:"Enter Email" parameterizedStepValue:"Enter Email" > > 
+06-10-2020 22:45:52.910 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 22:45:52.910 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 22:45:53.693 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Pass" > 
+06-10-2020 22:45:53.693 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Pass" parameterizedStepValue:"Enter Pass" > > 
+06-10-2020 22:45:54.702 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 22:45:54.704 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > allSteps:<stepValue:"Enter Email" parameterizedStepValue:"Enter Email" > > 
+06-10-2020 22:45:54.704 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 22:45:54.704 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 22:45:54.704 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 22:45:54.704 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > allSteps:<stepValue:"Enter Email" parameterizedStepValue:"Enter Email" > > 
+06-10-2020 22:45:54.705 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 22:45:54.705 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 22:45:55.438 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:45:55.577 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:45:55.890 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password" > 
+06-10-2020 22:45:55.901 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password" parameterizedStepValue:"Enter Password" > > 
+06-10-2020 22:45:58.571 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 22:45:58.571 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > allSteps:<stepValue:"Enter Email" parameterizedStepValue:"Enter Email" > allSteps:<stepValue:"Enter Password" parameterizedStepValue:"Enter Password" > > 
+06-10-2020 22:45:58.572 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 22:45:58.572 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 22:45:59.871 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 22:45:59.871 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Enter Email" parameterizedStepValue:"Enter Email" > allSteps:<stepValue:"Enter Password" parameterizedStepValue:"Enter Password" > allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > > 
+06-10-2020 22:45:59.871 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 22:45:59.871 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 22:46:01.024 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 22:46:01.025 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > allSteps:<stepValue:"Enter Email" parameterizedStepValue:"Enter Email" > allSteps:<stepValue:"Enter Password" parameterizedStepValue:"Enter Password" > > 
+06-10-2020 22:46:01.026 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 22:46:01.026 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 22:46:01.832 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 22:46:01.833 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > allSteps:<stepValue:"Enter Email" parameterizedStepValue:"Enter Email" > allSteps:<stepValue:"Enter Password" parameterizedStepValue:"Enter Password" > > 
+06-10-2020 22:46:01.834 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 22:46:01.834 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 22:46:06.816 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+06-10-2020 22:46:06.816 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > allSteps:<stepValue:"Enter Email" parameterizedStepValue:"Enter Email" > allSteps:<stepValue:"Enter Password" parameterizedStepValue:"Enter Password" > > 
+06-10-2020 22:46:06.816 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+06-10-2020 22:46:06.816 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+06-10-2020 22:46:12.847 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:46:12.959 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:46:20.642 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Sign in" > 
+06-10-2020 22:46:20.642 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Sign in" parameterizedStepValue:"Click Sign in" > > 
+06-10-2020 22:47:10.329 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter " > 
+06-10-2020 22:47:10.333 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter" parameterizedStepValue:"Enter" > > 
+06-10-2020 22:48:30.981 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email " > 
+06-10-2020 22:48:30.983 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email" parameterizedStepValue:"Enter Email" > > 
+06-10-2020 22:48:33.100 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <" > 
+06-10-2020 22:48:33.100 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+06-10-2020 22:48:33.166 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <" > 
+06-10-2020 22:48:33.170 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+06-10-2020 22:48:33.174 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <" > 
+06-10-2020 22:48:33.174 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+06-10-2020 22:48:36.781 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <emaol" > 
+06-10-2020 22:48:36.782 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+06-10-2020 22:48:36.797 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <emaol" > 
+06-10-2020 22:48:36.797 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+06-10-2020 22:48:36.800 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <emaol" > 
+06-10-2020 22:48:36.800 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+06-10-2020 22:48:43.353 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <" > 
+06-10-2020 22:48:43.357 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+06-10-2020 22:48:43.361 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <" > 
+06-10-2020 22:48:43.368 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+06-10-2020 22:48:43.369 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <" > 
+06-10-2020 22:48:43.370 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+06-10-2020 22:48:45.632 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <email" > 
+06-10-2020 22:48:45.632 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+06-10-2020 22:48:45.638 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <email" > 
+06-10-2020 22:48:45.638 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+06-10-2020 22:48:45.649 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <email" > 
+06-10-2020 22:48:45.650 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+06-10-2020 22:48:46.603 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <email>" > 
+06-10-2020 22:48:46.607 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <email>" parameters:"email" > > 
+06-10-2020 22:49:06.353 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password " > 
+06-10-2020 22:49:06.353 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password" parameterizedStepValue:"Enter Password" > > 
+06-10-2020 22:49:09.097 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <password" > 
+06-10-2020 22:49:09.101 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+06-10-2020 22:49:09.102 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <password" > 
+06-10-2020 22:49:09.102 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+06-10-2020 22:49:09.115 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <password" > 
+06-10-2020 22:49:09.115 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+06-10-2020 22:49:09.561 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <password>" > 
+06-10-2020 22:49:09.562 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <password>" parameters:"password" > > 
+06-10-2020 22:49:24.972 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"\"" > 
+06-10-2020 22:49:24.972 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <>" parameters:"" > > 
+06-10-2020 22:49:24.974 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"\"" > 
+06-10-2020 22:49:24.974 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <>" parameters:"" > > 
+06-10-2020 22:49:27.805 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"harsharns\"" > 
+06-10-2020 22:49:27.805 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharns>" parameters:"harsharns" > > 
+06-10-2020 22:49:27.806 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"harsharns\"" > 
+06-10-2020 22:49:27.806 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharns>" parameters:"harsharns" > > 
+06-10-2020 22:49:29.212 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"harsharnsoffice\"" > 
+06-10-2020 22:49:29.212 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharnsoffice>" parameters:"harsharnsoffice" > > 
+06-10-2020 22:49:29.212 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"harsharnsoffice\"" > 
+06-10-2020 22:49:29.212 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharnsoffice>" parameters:"harsharnsoffice" > > 
+06-10-2020 22:49:30.135 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"harsharnsoffice2\"" > 
+06-10-2020 22:49:30.135 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharnsoffice2>" parameters:"harsharnsoffice2" > > 
+06-10-2020 22:49:30.622 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"harsharnsoffice2@\"" > 
+06-10-2020 22:49:30.626 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharnsoffice2@>" parameters:"harsharnsoffice2@" > > 
+06-10-2020 22:49:30.626 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"harsharnsoffice2@\"" > 
+06-10-2020 22:49:30.627 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharnsoffice2@>" parameters:"harsharnsoffice2@" > > 
+06-10-2020 22:49:31.700 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"harsharnsoffice2@gmail\"" > 
+06-10-2020 22:49:31.746 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharnsoffice2@gmail>" parameters:"harsharnsoffice2@gmail" > > 
+06-10-2020 22:49:31.747 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"harsharnsoffice2@gmail\"" > 
+06-10-2020 22:49:31.747 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharnsoffice2@gmail>" parameters:"harsharnsoffice2@gmail" > > 
+06-10-2020 22:49:32.787 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"harsharnsoffice2@gmail.\"" > 
+06-10-2020 22:49:32.795 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharnsoffice2@gmail.>" parameters:"harsharnsoffice2@gmail." > > 
+06-10-2020 22:49:32.795 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"harsharnsoffice2@gmail.\"" > 
+06-10-2020 22:49:32.796 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharnsoffice2@gmail.>" parameters:"harsharnsoffice2@gmail." > > 
+06-10-2020 22:49:34.437 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"harsharnsoffice2@gmail.com\"" > 
+06-10-2020 22:49:34.437 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharnsoffice2@gmail.com>" parameters:"harsharnsoffice2@gmail.com" > > 
+06-10-2020 22:49:34.444 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"harsharnsoffice2@gmail.com\"" > 
+06-10-2020 22:49:34.445 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharnsoffice2@gmail.com>" parameters:"harsharnsoffice2@gmail.com" > > 
+06-10-2020 22:49:39.186 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password \"\"" > 
+06-10-2020 22:49:39.186 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <>" parameters:"" > > 
+06-10-2020 22:49:39.190 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password \"\"" > 
+06-10-2020 22:49:39.190 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <>" parameters:"" > > 
+06-10-2020 22:49:44.481 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password \"eve\"" > 
+06-10-2020 22:49:44.487 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <eve>" parameters:"eve" > > 
+06-10-2020 22:49:45.347 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password \"eve2\"" > 
+06-10-2020 22:49:45.347 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <eve2>" parameters:"eve2" > > 
+06-10-2020 22:49:45.348 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password \"eve2\"" > 
+06-10-2020 22:49:45.349 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <eve2>" parameters:"eve2" > > 
+06-10-2020 22:49:46.365 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password \"eve20000\"" > 
+06-10-2020 22:49:46.365 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <eve20000>" parameters:"eve20000" > > 
+06-10-2020 22:51:15.947 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 22:51:16.080 [Gauge] [INFO] Spec file added / modified: C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 23:07:58.296 [Gauge] [INFO] Closing connection [127.0.0.1:63197] cause: read tcp 127.0.0.1:63196->127.0.0.1:63197: wsarecv: An existing connection was forcibly closed by the remote host.
+06-10-2020 23:07:58.694 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 7640 has terminated.
+06-10-2020 23:12:09.181 [Gauge] [INFO] Watching directory: C:\Automation\GaugeProject\specs
+06-10-2020 23:12:09.181 [Gauge] [DEBUG] Found 1 files
+06-10-2020 23:12:09.183 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+06-10-2020 23:12:09.184 [Gauge] [INFO] Initializing specs cache with 1 specs
+06-10-2020 23:12:09.184 [Gauge] [DEBUG] Adding specs from C:\Automation\GaugeProject\specs\login.spec
+06-10-2020 23:12:09.184 [Gauge] [INFO] Initializing steps cache with 1 steps
+06-10-2020 23:12:09.184 [Gauge] [INFO] Gauge daemon initialized and listening on port: 64199
+06-10-2020 23:12:37.860 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click on Sign in button" > 
+06-10-2020 23:12:37.860 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > > 
+06-10-2020 23:12:38.763 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"harsharnsoffice2@gmail.com\"" > 
+06-10-2020 23:12:38.772 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharnsoffice2@gmail.com>" parameters:"harsharnsoffice2@gmail.com" > > 
+06-10-2020 23:12:38.773 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <email>" > 
+06-10-2020 23:12:38.773 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <email>" parameters:"email" > > 
+06-10-2020 23:12:38.785 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password \"eve20000\"" > 
+06-10-2020 23:12:38.786 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <eve20000>" parameters:"eve20000" > > 
+06-10-2020 23:12:38.787 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <password>" > 
+06-10-2020 23:12:38.787 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <password>" parameters:"password" > > 
+06-10-2020 23:12:38.788 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Sign in" > 
+06-10-2020 23:12:38.789 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Sign in" parameterizedStepValue:"Click Sign in" > > 
+06-10-2020 23:13:41.883 [Gauge] [INFO] Closing connection [127.0.0.1:64200] cause: read tcp 127.0.0.1:64199->127.0.0.1:64200: wsarecv: An existing connection was forcibly closed by the remote host.
+06-10-2020 23:13:41.999 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 13064 has terminated.
+01-11-2020 12:03:49.430 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+01-11-2020 12:03:49.453 [Gauge] [INFO] Watching directory: C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\specs
+01-11-2020 12:03:49.453 [Gauge] [DEBUG] Found 1 files
+01-11-2020 12:03:49.568 [Gauge] [INFO] Initializing specs cache with 1 specs
+01-11-2020 12:03:49.568 [Gauge] [DEBUG] Adding specs from C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\specs\login.spec
+01-11-2020 12:03:49.568 [Gauge] [INFO] Initializing steps cache with 1 steps
+01-11-2020 12:03:49.568 [Gauge] [INFO] Gauge daemon initialized and listening on port: 63577
+01-11-2020 12:11:39.141 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.143 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.143 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.143 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.144 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.144 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.147 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.147 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.147 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.147 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.211 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:" User signs in to application" > 
+01-11-2020 12:11:39.225 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+01-11-2020 12:11:39.226 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.226 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.227 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.227 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.227 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.227 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.245 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.253 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.253 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.253 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.254 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.254 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.256 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.259 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.259 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.259 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.260 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.261 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.309 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.309 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.317 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.317 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.318 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.318 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.335 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.349 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.349 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.349 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.352 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.352 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.360 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.361 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:39.395 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:39.395 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:48.773 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:48.773 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:49.446 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:49.450 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:50.400 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:50.400 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:56.499 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:56.502 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:11:58.817 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:11:58.818 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:06.944 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User signs in to application" > 
+01-11-2020 12:12:06.944 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+01-11-2020 12:12:08.997 [Gauge] [INFO] Spec file added / modified: C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\specs\login.spec
+01-11-2020 12:12:09.030 [Gauge] [INFO] Spec file added / modified: C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\specs\login.spec
+01-11-2020 12:12:42.862 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:42.862 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:42.862 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:42.862 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:42.862 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:42.862 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:42.900 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:42.900 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:42.902 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:42.902 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.300 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.300 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.300 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.300 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.300 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.300 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.300 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.300 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.310 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.310 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.358 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.359 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.359 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.359 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.359 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.360 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.361 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.366 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.366 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.366 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.367 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.367 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.681 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.681 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.681 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.681 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.689 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.689 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.689 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.689 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.689 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.689 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.690 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+01-11-2020 12:12:43.690 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+01-11-2020 12:12:43.957 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+01-11-2020 12:12:43.973 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+01-11-2020 12:12:43.985 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+01-11-2020 12:12:43.996 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+01-11-2020 12:12:44.816 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+01-11-2020 12:12:44.823 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+01-11-2020 12:12:44.823 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+01-11-2020 12:12:44.823 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+01-11-2020 12:12:44.824 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+01-11-2020 12:12:44.824 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+01-11-2020 12:12:44.824 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+01-11-2020 12:12:44.824 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+01-11-2020 12:12:45.411 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the" > 
+01-11-2020 12:12:45.411 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the" parameterizedStepValue:"Invoke the" > > 
+01-11-2020 12:12:45.589 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+01-11-2020 12:12:45.590 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+01-11-2020 12:12:45.590 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+01-11-2020 12:12:45.590 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+01-11-2020 12:12:45.591 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+01-11-2020 12:12:45.591 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+01-11-2020 12:12:45.591 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+01-11-2020 12:12:45.591 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+01-11-2020 12:12:46.661 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the Driver" > 
+01-11-2020 12:12:46.665 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the Driver" parameterizedStepValue:"Invoke the Driver" > > 
+01-11-2020 12:12:46.666 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the Driver" > 
+01-11-2020 12:12:46.666 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the Driver" parameterizedStepValue:"Invoke the Driver" > > 
+01-11-2020 12:12:58.687 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+01-11-2020 12:12:58.687 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+01-11-2020 12:12:58.697 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+01-11-2020 12:12:58.697 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+01-11-2020 12:12:58.698 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+01-11-2020 12:12:58.699 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+01-11-2020 12:12:58.699 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+01-11-2020 12:12:58.699 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+01-11-2020 12:12:59.231 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the Driver to" > 
+01-11-2020 12:12:59.231 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the Driver to" parameterizedStepValue:"Invoke the Driver to" > > 
+01-11-2020 12:12:59.236 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the Driver to" > 
+01-11-2020 12:12:59.236 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the Driver to" parameterizedStepValue:"Invoke the Driver to" > > 
+01-11-2020 12:12:59.703 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+01-11-2020 12:12:59.703 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+01-11-2020 12:12:59.709 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+01-11-2020 12:12:59.709 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+01-11-2020 12:12:59.710 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+01-11-2020 12:12:59.710 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+01-11-2020 12:12:59.710 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+01-11-2020 12:12:59.710 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+01-11-2020 12:13:00.751 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the Driver to lauch" > 
+01-11-2020 12:13:00.755 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the Driver to lauch" parameterizedStepValue:"Invoke the Driver to lauch" > > 
+01-11-2020 12:13:00.755 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the Driver to lauch" > 
+01-11-2020 12:13:00.755 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the Driver to lauch" parameterizedStepValue:"Invoke the Driver to lauch" > > 
+01-11-2020 12:13:04.691 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+01-11-2020 12:13:04.696 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+01-11-2020 12:13:04.696 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+01-11-2020 12:13:04.696 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+01-11-2020 12:13:04.697 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+01-11-2020 12:13:04.697 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+01-11-2020 12:13:04.697 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+01-11-2020 12:13:04.697 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+01-11-2020 12:13:05.404 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the Driver to lauch Auto" > 
+01-11-2020 12:13:05.404 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the Driver to lauch Auto" parameterizedStepValue:"Invoke the Driver to lauch Auto" > > 
+01-11-2020 12:13:05.405 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the Driver to lauch Auto" > 
+01-11-2020 12:13:05.405 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the Driver to lauch Auto" parameterizedStepValue:"Invoke the Driver to lauch Auto" > > 
+01-11-2020 12:13:07.616 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+01-11-2020 12:13:07.621 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+01-11-2020 12:13:07.621 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+01-11-2020 12:13:07.621 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+01-11-2020 12:13:07.622 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+01-11-2020 12:13:07.622 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+01-11-2020 12:13:07.622 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+01-11-2020 12:13:07.622 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+01-11-2020 12:13:10.195 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the Driver to lauch AutomationPractice" > 
+01-11-2020 12:13:10.199 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the Driver to lauch AutomationPractice" parameterizedStepValue:"Invoke the Driver to lauch AutomationPractice" > > 
+01-11-2020 12:13:10.199 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the Driver to lauch AutomationPractice" > 
+01-11-2020 12:13:10.199 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the Driver to lauch AutomationPractice" parameterizedStepValue:"Invoke the Driver to lauch AutomationPractice" > > 
+01-11-2020 12:13:44.052 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Invoke the Driver to lauch AutomationPractice" > 
+01-11-2020 12:13:44.052 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Invoke the Driver to lauch AutomationPractice" parameterizedStepValue:"* Invoke the Driver to lauch AutomationPractice" > > 
+01-11-2020 12:13:44.067 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Enter Email \"harsharnsoffice2@gmail.com\"" > 
+01-11-2020 12:13:44.067 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Enter Email {}" parameterizedStepValue:"* Enter Email <harsharnsoffice2@gmail.com>" parameters:"harsharnsoffice2@gmail.com" > > 
+01-11-2020 12:14:08.820 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Click on Sign in button" > 
+01-11-2020 12:14:08.820 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Click on Sign in button" parameterizedStepValue:"* Click on Sign in button" > > 
+01-11-2020 12:14:08.828 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Click Sign in" > 
+01-11-2020 12:14:08.828 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Click Sign in" parameterizedStepValue:"* Click Sign in" > > 
+01-11-2020 12:14:08.828 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Enter Password \"eve20000\"" > 
+01-11-2020 12:14:08.828 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Enter Password {}" parameterizedStepValue:"* Enter Password <eve20000>" parameters:"eve20000" > > 
+01-11-2020 12:29:14.465 [Gauge] [INFO] Closing connection [127.0.0.1:64379] cause: read tcp 127.0.0.1:63577->127.0.0.1:64379: wsarecv: An existing connection was forcibly closed by the remote host.
+01-11-2020 12:29:14.881 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 14416 has terminated.
+14-12-2020 12:13:47.224 [Gauge] [INFO] Watching directory: G:\TrainingPartners2\BASICS and GAGUE - PFD\1_0_Gauge_PFD_BaseScript_AutomationPractice\specs
+14-12-2020 12:13:47.226 [Gauge] [DEBUG] Found 1 files
+14-12-2020 12:13:47.253 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+14-12-2020 12:13:47.253 [Gauge] [DEBUG] Adding concepts from G:\TrainingPartners2\BASICS and GAGUE - PFD\1_0_Gauge_PFD_BaseScript_AutomationPractice\concepts\TestRunner.cpt
+14-12-2020 12:13:47.269 [Gauge] [INFO] Spec file added / modified: G:\TrainingPartners2\BASICS and GAGUE - PFD\1_0_Gauge_PFD_BaseScript_AutomationPractice\specs\login.spec
+14-12-2020 12:13:47.272 [Gauge] [INFO] Initializing specs cache with 1 specs
+14-12-2020 12:13:47.272 [Gauge] [DEBUG] Adding specs from G:\TrainingPartners2\BASICS and GAGUE - PFD\1_0_Gauge_PFD_BaseScript_AutomationPractice\specs\login.spec
+14-12-2020 12:13:47.272 [Gauge] [INFO] Initializing steps cache with 2 steps
+14-12-2020 12:13:47.272 [Gauge] [INFO] Gauge daemon initialized and listening on port: 55508
+14-12-2020 12:13:58.824 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click on Sign in button" > 
+14-12-2020 12:13:58.824 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > > 
+14-12-2020 12:13:59.017 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <email>" > 
+14-12-2020 12:13:59.017 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <email>" parameters:"email" > > 
+14-12-2020 12:13:59.101 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <password>" > 
+14-12-2020 12:13:59.101 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <password>" parameters:"password" > > 
+14-12-2020 12:13:59.132 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Sign in" > 
+14-12-2020 12:13:59.132 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Sign in" parameterizedStepValue:"Click Sign in" > > 
+14-12-2020 12:13:59.165 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User signs in to application" > 
+14-12-2020 12:13:59.165 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+14-12-2020 12:13:59.297 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Invoke the Driver to lauch AutomationPractice" > 
+14-12-2020 12:13:59.297 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Invoke the Driver to lauch AutomationPractice" parameterizedStepValue:"* Invoke the Driver to lauch AutomationPractice" > > 
+14-12-2020 12:13:59.596 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Click on Sign in button" > 
+14-12-2020 12:13:59.596 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Click on Sign in button" parameterizedStepValue:"* Click on Sign in button" > > 
+14-12-2020 12:14:00.129 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Click Sign in" > 
+14-12-2020 12:14:00.129 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Click Sign in" parameterizedStepValue:"* Click Sign in" > > 
+14-12-2020 12:14:00.287 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Enter Password \"eve20000\"" > 
+14-12-2020 12:14:00.288 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Enter Password {}" parameterizedStepValue:"* Enter Password <eve20000>" parameters:"eve20000" > > 
+14-12-2020 12:14:00.620 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Enter Email \"harsharnsoffice2@gmail.com\"" > 
+14-12-2020 12:14:00.620 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Enter Email {}" parameterizedStepValue:"* Enter Email <harsharnsoffice2@gmail.com>" parameters:"harsharnsoffice2@gmail.com" > > 
+14-12-2020 12:14:45.160 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the Driver to lauch AutomationPractice" > 
+14-12-2020 12:14:45.161 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the Driver to lauch AutomationPractice" parameterizedStepValue:"Invoke the Driver to lauch AutomationPractice" > > 
+17-01-2021 20:04:46.151 [Gauge] [INFO] Watching directory: C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\specs
+17-01-2021 20:04:46.177 [Gauge] [DEBUG] Found 1 files
+17-01-2021 20:04:46.318 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+17-01-2021 20:04:46.318 [Gauge] [DEBUG] Adding concepts from C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\concepts\TestRunner.cpt
+17-01-2021 20:04:46.333 [Gauge] [INFO] Spec file added / modified: C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\specs\login.spec
+17-01-2021 20:07:43.604 [Gauge] [INFO] Watching directory: C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\specs
+17-01-2021 20:07:43.605 [Gauge] [DEBUG] Found 1 files
+17-01-2021 20:07:43.608 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+17-01-2021 20:07:43.608 [Gauge] [DEBUG] Adding concepts from C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\concepts\TestRunner.cpt
+17-01-2021 20:07:43.608 [Gauge] [INFO] Initializing specs cache with 1 specs
+17-01-2021 20:07:43.608 [Gauge] [DEBUG] Adding specs from C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\specs\login.spec
+17-01-2021 20:07:43.608 [Gauge] [INFO] Initializing steps cache with 2 steps
+17-01-2021 20:07:43.634 [Gauge] [INFO] Gauge daemon initialized and listening on port: 59733
+17-01-2021 20:08:32.639 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click on Sign in button" > 
+17-01-2021 20:08:32.639 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > > 
+17-01-2021 20:08:33.065 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <email>" > 
+17-01-2021 20:08:33.065 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <email>" parameters:"email" > > 
+17-01-2021 20:08:33.107 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <password>" > 
+17-01-2021 20:08:33.107 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <password>" parameters:"password" > > 
+17-01-2021 20:08:33.126 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Sign in" > 
+17-01-2021 20:08:33.126 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Sign in" parameterizedStepValue:"Click Sign in" > > 
+17-01-2021 20:08:33.682 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User signs in to application" > 
+17-01-2021 20:08:33.682 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+17-01-2021 20:08:33.685 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Invoke the Driver to lauch AutomationPractice" > 
+17-01-2021 20:08:33.685 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Invoke the Driver to lauch AutomationPractice" parameterizedStepValue:"* Invoke the Driver to lauch AutomationPractice" > > 
+17-01-2021 20:08:33.686 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Click on Sign in button" > 
+17-01-2021 20:08:33.686 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Click on Sign in button" parameterizedStepValue:"* Click on Sign in button" > > 
+17-01-2021 20:08:33.687 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Click Sign in" > 
+17-01-2021 20:08:33.687 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Click Sign in" parameterizedStepValue:"* Click Sign in" > > 
+17-01-2021 20:08:33.687 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Enter Password \"eve20000\"" > 
+17-01-2021 20:08:33.687 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Enter Password {}" parameterizedStepValue:"* Enter Password <eve20000>" parameters:"eve20000" > > 
+17-01-2021 20:08:33.688 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Enter Email \"harsharnsoffice2@gmail.com\"" > 
+17-01-2021 20:08:33.688 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Enter Email {}" parameterizedStepValue:"* Enter Email <harsharnsoffice2@gmail.com>" parameters:"harsharnsoffice2@gmail.com" > > 
+17-01-2021 20:11:09.621 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the Driver to lauch AutomationPractice" > 
+17-01-2021 20:11:09.622 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the Driver to lauch AutomationPractice" parameterizedStepValue:"Invoke the Driver to lauch AutomationPractice" > > 
+17-01-2021 20:40:13.205 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the Driver to launch AutomationPractice" > 
+17-01-2021 20:40:13.241 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the Driver to launch AutomationPractice" parameterizedStepValue:"Invoke the Driver to launch AutomationPractice" > > 
+17-01-2021 20:40:20.065 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:" User signs in to application" > 
+17-01-2021 20:40:20.066 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+17-01-2021 20:40:34.565 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email \"harsharnsoffice2@gmail.com\"" > 
+17-01-2021 20:40:34.565 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharnsoffice2@gmail.com>" parameters:"harsharnsoffice2@gmail.com" > > 
+17-01-2021 20:40:34.566 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password \"eve20000\"" > 
+17-01-2021 20:40:34.567 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <eve20000>" parameters:"eve20000" > > 
+17-01-2021 20:40:38.615 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+17-01-2021 20:40:38.618 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Invoke the Driver to lauch AutomationPractice" parameterizedStepValue:"Invoke the Driver to lauch AutomationPractice" > allSteps:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > allSteps:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <harsharnsoffice2@gmail.com>" parameters:"harsharnsoffice2@gmail.com" > allSteps:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <eve20000>" parameters:"eve20000" > allSteps:<stepValue:"Click Sign in" parameterizedStepValue:"Click Sign in" > > 
+17-01-2021 20:40:38.627 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+17-01-2021 20:40:38.643 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<concepts:<stepValue:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > filepath:"C:\\Automation\\1_0_Gauge_PFD_BaseScript_AutomationPractice\\concepts\\TestRunner.cpt" lineNumber:1 > > 
+17-01-2021 21:19:48.266 [Gauge] [INFO] Watching directory: C:\Automation\5_Git_Gauge_Project\specs
+17-01-2021 21:19:48.267 [Gauge] [DEBUG] Found 1 files
+17-01-2021 21:19:48.270 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+17-01-2021 21:19:48.270 [Gauge] [DEBUG] Adding concepts from C:\Automation\5_Git_Gauge_Project\concepts\TestRunner.cpt
+17-01-2021 21:19:48.270 [Gauge] [INFO] Initializing specs cache with 1 specs
+17-01-2021 21:19:48.270 [Gauge] [DEBUG] Adding specs from C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 21:19:48.270 [Gauge] [INFO] Initializing steps cache with 2 steps
+17-01-2021 21:19:48.270 [Gauge] [INFO] Gauge daemon initialized and listening on port: 60579
+17-01-2021 21:41:22.401 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Invoke the Driver to launch AutomationPractice" > 
+17-01-2021 21:41:22.405 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Invoke the Driver to launch AutomationPractice" parameterizedStepValue:"* Invoke the Driver to launch AutomationPractice" > > 
+17-01-2021 22:00:29.332 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:00:29.409 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:04:17.355 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:04:17.489 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:04:39.539 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:04:39.564 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:04:41.855 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:04:41.896 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:15:02.989 [Gauge] [INFO] Closing connection [127.0.0.1:60580] cause: read tcp 127.0.0.1:60579->127.0.0.1:60580: wsarecv: An existing connection was forcibly closed by the remote host.
+17-01-2021 22:15:03.126 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 28284 has terminated.
+17-01-2021 22:16:43.765 [Gauge] [INFO] Watching directory: C:\Automation\5_Git_Gauge_Project\specs
+17-01-2021 22:16:43.769 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+17-01-2021 22:16:43.769 [Gauge] [DEBUG] Adding concepts from C:\Automation\5_Git_Gauge_Project\concepts\TestRunner.cpt
+17-01-2021 22:16:43.770 [Gauge] [INFO] Initializing specs cache with 1 specs
+17-01-2021 22:16:43.770 [Gauge] [DEBUG] Adding specs from C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:16:43.770 [Gauge] [INFO] Initializing steps cache with 2 steps
+17-01-2021 22:16:43.770 [Gauge] [INFO] Gauge daemon initialized and listening on port: 61593
+17-01-2021 22:16:43.779 [Gauge] [DEBUG] Found 1 files
+17-01-2021 22:17:12.302 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User signs in to application" > 
+17-01-2021 22:17:12.306 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+17-01-2021 22:17:13.404 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the Driver to launch AutomationPractice" > 
+17-01-2021 22:17:13.404 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the Driver to launch AutomationPractice" parameterizedStepValue:"Invoke the Driver to launch AutomationPractice" > > 
+17-01-2021 22:17:13.406 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click on Sign in button" > 
+17-01-2021 22:17:13.407 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > > 
+17-01-2021 22:17:13.412 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <email>" > 
+17-01-2021 22:17:13.412 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <email>" parameters:"email" > > 
+17-01-2021 22:17:13.415 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <password>" > 
+17-01-2021 22:17:13.415 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <password>" parameters:"password" > > 
+17-01-2021 22:17:13.416 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Sign in" > 
+17-01-2021 22:17:13.416 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Sign in" parameterizedStepValue:"Click Sign in" > > 
+17-01-2021 22:17:13.952 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:" User signs in to application" > 
+17-01-2021 22:17:13.955 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+17-01-2021 22:18:06.821 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:18:06.851 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:27:10.287 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:27:10.324 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:27:21.435 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:27:21.480 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:28:10.449 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:28:10.581 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:28:12.395 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:28:12.468 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:54:42.955 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:54:42.993 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:54:49.334 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+17-01-2021 22:54:49.370 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+18-01-2021 07:49:38.827 [Gauge] [INFO] Closing connection [127.0.0.1:61594] cause: read tcp 127.0.0.1:61593->127.0.0.1:61594: wsarecv: An existing connection was forcibly closed by the remote host.
+18-01-2021 07:49:38.944 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 31308 has terminated.
+18-01-2021 07:54:41.621 [Gauge] [INFO] Watching directory: C:\Automation\5_Git_Gauge_Project\specs
+18-01-2021 07:54:41.622 [Gauge] [DEBUG] Found 1 files
+18-01-2021 07:54:41.664 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+18-01-2021 07:54:41.664 [Gauge] [DEBUG] Adding concepts from C:\Automation\5_Git_Gauge_Project\concepts\TestRunner.cpt
+18-01-2021 07:54:41.697 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
+18-01-2021 07:54:41.700 [Gauge] [INFO] Initializing specs cache with 1 specs
+18-01-2021 07:54:41.700 [Gauge] [DEBUG] Adding specs from C:\Automation\5_Git_Gauge_Project\specs\login.spec
+18-01-2021 07:54:41.700 [Gauge] [INFO] Initializing steps cache with 2 steps
+18-01-2021 07:54:41.700 [Gauge] [INFO] Gauge daemon initialized and listening on port: 64461
+18-01-2021 07:55:16.838 [Gauge] [INFO] Closing connection [127.0.0.1:64462] cause: read tcp 127.0.0.1:64461->127.0.0.1:64462: wsarecv: An existing connection was forcibly closed by the remote host.
+18-01-2021 07:55:16.942 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 37760 has terminated.
+18-01-2021 07:55:24.625 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+18-01-2021 07:55:24.626 [Gauge] [DEBUG] Adding concepts from C:\Automation\5_Git_Gauge_Project\concepts\TestRunner.cpt
+18-01-2021 07:55:24.627 [Gauge] [INFO] Initializing specs cache with 1 specs
+18-01-2021 07:55:24.627 [Gauge] [DEBUG] Adding specs from C:\Automation\5_Git_Gauge_Project\specs\login.spec
+18-01-2021 07:55:24.627 [Gauge] [INFO] Initializing steps cache with 2 steps
+18-01-2021 07:55:24.627 [Gauge] [INFO] Gauge daemon initialized and listening on port: 64479
+18-01-2021 07:55:24.669 [Gauge] [INFO] Watching directory: C:\Automation\5_Git_Gauge_Project\specs
+18-01-2021 07:55:24.669 [Gauge] [DEBUG] Found 1 files
+18-01-2021 07:57:26.465 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"User signs in to application" > 
+18-01-2021 07:57:26.465 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+18-01-2021 07:57:26.527 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Invoke the Driver to launch AutomationPractice" > 
+18-01-2021 07:57:26.528 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Invoke the Driver to launch AutomationPractice" parameterizedStepValue:"Invoke the Driver to launch AutomationPractice" > > 
+18-01-2021 07:57:26.528 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click on Sign in button" > 
+18-01-2021 07:57:26.528 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click on Sign in button" parameterizedStepValue:"Click on Sign in button" > > 
+18-01-2021 07:57:26.528 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Email <email>" > 
+18-01-2021 07:57:26.528 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Email {}" parameterizedStepValue:"Enter Email <email>" parameters:"email" > > 
+18-01-2021 07:57:26.530 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Enter Password <password>" > 
+18-01-2021 07:57:26.530 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Enter Password {}" parameterizedStepValue:"Enter Password <password>" parameters:"password" > > 
+18-01-2021 07:57:26.531 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click Sign in" > 
+18-01-2021 07:57:26.531 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click Sign in" parameterizedStepValue:"Click Sign in" > > 
+18-01-2021 07:57:26.616 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:" User signs in to application" > 
+18-01-2021 07:57:26.617 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 

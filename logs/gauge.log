@@ -1,0 +1,832 @@
+06-10-2020 22:29:48.747 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Automation\GaugeProject\.gauge\screenshots
+06-10-2020 22:29:48.962 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-10-2020 22:29:48.963 [Gauge] [DEBUG] Plugin java is already installed.
+06-10-2020 22:29:49.079 [Gauge] [DEBUG] Parsing started.
+06-10-2020 22:29:49.086 [Gauge] [DEBUG] Started concepts parsing.
+06-10-2020 22:29:49.513 [Gauge] [DEBUG] 0 concepts parsing completed.
+06-10-2020 22:29:49.513 [Gauge] [DEBUG] Started specifications parsing.
+06-10-2020 22:29:49.513 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-10-2020 22:29:49.530 [Gauge] [DEBUG] Parsing completed.
+06-10-2020 22:29:55.896 [Gauge] [DEBUG] Checking updates...
+06-10-2020 22:29:55.903 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 22:29:56.637 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 22:29:56.833 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 22:30:19.672 [Gauge] [CRITICAL] Failed to start gauge API: Timed out connecting to java
+06-10-2020 22:30:58.776 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Automation\GaugeProject\.gauge\screenshots
+06-10-2020 22:30:58.779 [Gauge] [DEBUG] Plugin java is already installed.
+06-10-2020 22:30:58.779 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-10-2020 22:30:58.780 [Gauge] [DEBUG] Parsing started.
+06-10-2020 22:30:58.780 [Gauge] [DEBUG] Started concepts parsing.
+06-10-2020 22:30:58.784 [Gauge] [DEBUG] 0 concepts parsing completed.
+06-10-2020 22:30:58.784 [Gauge] [DEBUG] Started specifications parsing.
+06-10-2020 22:30:58.785 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-10-2020 22:30:58.785 [Gauge] [DEBUG] Parsing completed.
+06-10-2020 22:31:01.462 [Gauge] [DEBUG] Checking updates...
+06-10-2020 22:31:01.464 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 22:31:02.185 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 22:31:02.427 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 22:31:03.433 [java] [DEBUG] multithreading is set to false
+06-10-2020 22:31:03.826 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+06-10-2020 22:31:05.180 [java] [DEBUG] gauge-java took 1831milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+06-10-2020 22:31:05.180 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1831
+06-10-2020 22:31:05.180 [java] [DEBUG] starting gRPC server...
+06-10-2020 22:31:06.032 [java] [DEBUG] started gRPC server on port 63057
+06-10-2020 22:31:06.033 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63057
+06-10-2020 22:31:14.054 [Gauge] [DEBUG] Successfully made the connection with runner with port: 63057
+06-10-2020 22:31:14.090 [Gauge] [DEBUG] Validation started.
+06-10-2020 22:32:35.489 [java] [DEBUG] Scanning packages for steps
+06-10-2020 22:32:36.293 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickTheSignInButton' and 'apppack.HomeStepImpl.ClickTheSignInButton'
+06-10-2020 22:32:36.307 [java] [DEBUG] Found Click on Sign in button in current project scope.
+06-10-2020 22:32:36.307 [java] [DEBUG] Scanning packages for hooks
+06-10-2020 22:32:36.437 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+06-10-2020 22:32:36.437 [java] [DEBUG] 	Click on Sign in button : public void ClickTheSignInButton()
+06-10-2020 22:38:33.715 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Automation\GaugeProject\.gauge\screenshots
+06-10-2020 22:38:33.716 [Gauge] [DEBUG] Plugin java is already installed.
+06-10-2020 22:38:33.717 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-10-2020 22:38:33.718 [Gauge] [DEBUG] Parsing started.
+06-10-2020 22:38:33.718 [Gauge] [DEBUG] Started concepts parsing.
+06-10-2020 22:38:33.723 [Gauge] [DEBUG] 0 concepts parsing completed.
+06-10-2020 22:38:33.724 [Gauge] [DEBUG] Started specifications parsing.
+06-10-2020 22:38:33.724 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-10-2020 22:38:33.724 [Gauge] [DEBUG] Parsing completed.
+06-10-2020 22:38:34.968 [Gauge] [DEBUG] Checking updates...
+06-10-2020 22:38:34.969 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 22:38:35.407 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 22:38:35.494 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 22:38:37.107 [java] [DEBUG] multithreading is set to false
+06-10-2020 22:38:37.482 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+06-10-2020 22:38:38.727 [java] [DEBUG] gauge-java took 1607milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+06-10-2020 22:38:38.727 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1607
+06-10-2020 22:38:38.727 [java] [DEBUG] starting gRPC server...
+06-10-2020 22:38:39.225 [java] [DEBUG] started gRPC server on port 63172
+06-10-2020 22:38:39.232 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63172
+06-10-2020 22:38:39.382 [Gauge] [DEBUG] Successfully made the connection with runner with port: 63172
+06-10-2020 22:38:39.385 [Gauge] [DEBUG] Validation started.
+06-10-2020 22:39:11.655 [java] [DEBUG] Scanning packages for steps
+06-10-2020 22:39:11.669 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickTheSignInButton' and 'apppack.HomeStepImpl.ClickTheSignInButton'
+06-10-2020 22:39:11.669 [java] [DEBUG] Found Click on Sign in button in current project scope.
+06-10-2020 22:39:11.669 [java] [DEBUG] Scanning packages for hooks
+06-10-2020 22:39:11.680 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+06-10-2020 22:39:11.680 [java] [DEBUG] 	Click on Sign in button : public void ClickTheSignInButton()
+06-10-2020 22:42:55.169 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Automation\GaugeProject\.gauge\screenshots
+06-10-2020 22:42:55.171 [Gauge] [DEBUG] Plugin java is already installed.
+06-10-2020 22:42:55.172 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-10-2020 22:42:55.172 [Gauge] [DEBUG] Parsing started.
+06-10-2020 22:42:55.172 [Gauge] [DEBUG] Started concepts parsing.
+06-10-2020 22:42:55.178 [Gauge] [DEBUG] 0 concepts parsing completed.
+06-10-2020 22:42:55.178 [Gauge] [DEBUG] Started specifications parsing.
+06-10-2020 22:42:55.179 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-10-2020 22:42:55.179 [Gauge] [DEBUG] Parsing completed.
+06-10-2020 22:42:56.733 [Gauge] [DEBUG] Checking updates...
+06-10-2020 22:42:56.746 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 22:42:57.049 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 22:42:57.136 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 22:42:57.956 [java] [DEBUG] multithreading is set to false
+06-10-2020 22:42:58.248 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+06-10-2020 22:42:58.911 [java] [DEBUG] gauge-java took 945milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+06-10-2020 22:42:58.912 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 945
+06-10-2020 22:42:58.912 [java] [DEBUG] starting gRPC server...
+06-10-2020 22:42:59.561 [java] [DEBUG] started gRPC server on port 63252
+06-10-2020 22:42:59.574 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63252
+06-10-2020 22:42:59.754 [Gauge] [DEBUG] Successfully made the connection with runner with port: 63252
+06-10-2020 22:42:59.754 [Gauge] [DEBUG] Validation started.
+06-10-2020 22:43:03.517 [java] [DEBUG] Scanning packages for steps
+06-10-2020 22:43:03.529 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickTheSignInButton' and 'apppack.HomeStepImpl.ClickTheSignInButton'
+06-10-2020 22:43:03.529 [java] [DEBUG] Found Click on Sign in button in current project scope.
+06-10-2020 22:43:03.529 [java] [DEBUG] Scanning packages for hooks
+06-10-2020 22:43:03.540 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+06-10-2020 22:43:03.540 [java] [DEBUG] 	Click on Sign in button : public void ClickTheSignInButton()
+06-10-2020 22:43:05.675 [Gauge] [DEBUG] Validation completed.
+06-10-2020 22:43:05.898 [Gauge] [DEBUG] Run started
+06-10-2020 22:43:05.902 [Gauge] [DEBUG] Starting Html Report plugin
+06-10-2020 22:43:07.918 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63260
+06-10-2020 22:43:07.936 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 63260
+06-10-2020 22:43:07.949 [Gauge] [DEBUG] Initialising suite data store.
+06-10-2020 22:43:10.569 [java] [ERROR] Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 29733
+06-10-2020 22:43:10.569 [java] [ERROR] Only local connections are allowed.
+06-10-2020 22:43:10.569 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+06-10-2020 22:43:10.649 [java] [ERROR] ChromeDriver was started successfully.
+06-10-2020 22:43:19.370 [java] [ERROR] [1602004399.369][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+06-10-2020 22:43:22.639 [java] [ERROR] Oct 06, 2020 10:43:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+06-10-2020 22:43:22.639 [java] [ERROR] INFO: Detected dialect: W3C
+06-10-2020 22:43:32.141 [java] [DEBUG] Executing 'Click on Sign in button' using 'class apppack.HomeStepImpl.ClickTheSignInButton
+06-10-2020 22:43:34.940 [html-report] [DEBUG] Transformed SuiteResult to report structure
+06-10-2020 22:43:38.202 [html-report] [INFO] Successfully generated html-report to => C:\Automation\GaugeProject\reports\html-report\index.html
+06-10-2020 22:43:38.203 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Dell\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+06-10-2020 22:43:38.203 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+06-10-2020 22:43:39.919 [Gauge] [DEBUG] Runner with PID:12164 has exited
+06-10-2020 22:43:39.919 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-10-2020 22:43:39.919 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+06-10-2020 22:43:39.956 [Gauge] [INFO] 
+Total time taken: 28.795s
+06-10-2020 22:43:39.957 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-10-2020 22:59:28.764 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Automation\GaugeProject\.gauge\screenshots
+06-10-2020 22:59:28.774 [Gauge] [DEBUG] Plugin java is already installed.
+06-10-2020 22:59:28.774 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-10-2020 22:59:28.775 [Gauge] [DEBUG] Parsing started.
+06-10-2020 22:59:28.775 [Gauge] [DEBUG] Started concepts parsing.
+06-10-2020 22:59:28.780 [Gauge] [DEBUG] 0 concepts parsing completed.
+06-10-2020 22:59:28.780 [Gauge] [DEBUG] Started specifications parsing.
+06-10-2020 22:59:28.780 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-10-2020 22:59:28.781 [Gauge] [DEBUG] Parsing completed.
+06-10-2020 22:59:30.335 [Gauge] [DEBUG] Checking updates...
+06-10-2020 22:59:30.338 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 22:59:32.002 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 22:59:32.101 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 22:59:34.492 [java] [DEBUG] multithreading is set to false
+06-10-2020 22:59:34.899 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+06-10-2020 22:59:35.756 [java] [DEBUG] gauge-java took 1373milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+06-10-2020 22:59:35.756 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1373
+06-10-2020 22:59:35.756 [java] [DEBUG] starting gRPC server...
+06-10-2020 22:59:36.298 [java] [DEBUG] started gRPC server on port 63879
+06-10-2020 22:59:36.302 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63879
+06-10-2020 22:59:37.395 [Gauge] [DEBUG] Successfully made the connection with runner with port: 63879
+06-10-2020 22:59:37.406 [Gauge] [DEBUG] Validation started.
+06-10-2020 23:00:25.035 [java] [DEBUG] Scanning packages for steps
+06-10-2020 23:00:25.155 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickOnSignInButton' and 'apppack.HomeStepImpl.ClickOnSignInButton'
+06-10-2020 23:00:25.155 [java] [DEBUG] Found Click Sign in in current project scope.
+06-10-2020 23:00:25.155 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickTheSignInButton' and 'apppack.HomeStepImpl.ClickTheSignInButton'
+06-10-2020 23:00:25.155 [java] [DEBUG] Found Click on Sign in button in current project scope.
+06-10-2020 23:00:25.156 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterTheEmail' and 'apppack.HomeStepImpl.EnterTheEmail'
+06-10-2020 23:00:25.156 [java] [DEBUG] Found Enter Email {} in current project scope.
+06-10-2020 23:00:25.156 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterThePassword' and 'apppack.HomeStepImpl.EnterThePassword'
+06-10-2020 23:00:25.157 [java] [DEBUG] Found Enter Password {} in current project scope.
+06-10-2020 23:00:25.157 [java] [DEBUG] Scanning packages for hooks
+06-10-2020 23:00:25.228 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+06-10-2020 23:00:25.228 [java] [DEBUG] 	Click Sign in : public void ClickOnSignInButton()
+06-10-2020 23:00:25.228 [java] [DEBUG] 	Enter Email {} : public void EnterTheEmail(String email)
+06-10-2020 23:00:25.228 [java] [DEBUG] 	Enter Password {} : public void EnterThePassword(String password)
+06-10-2020 23:00:25.229 [java] [DEBUG] 	Click on Sign in button : public void ClickTheSignInButton()
+06-10-2020 23:06:32.870 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Automation\GaugeProject\.gauge\screenshots
+06-10-2020 23:06:32.874 [Gauge] [DEBUG] Plugin java is already installed.
+06-10-2020 23:06:32.874 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-10-2020 23:06:32.875 [Gauge] [DEBUG] Parsing started.
+06-10-2020 23:06:32.875 [Gauge] [DEBUG] Started concepts parsing.
+06-10-2020 23:06:32.881 [Gauge] [DEBUG] 0 concepts parsing completed.
+06-10-2020 23:06:32.881 [Gauge] [DEBUG] Started specifications parsing.
+06-10-2020 23:06:32.881 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-10-2020 23:06:32.881 [Gauge] [DEBUG] Parsing completed.
+06-10-2020 23:06:34.223 [Gauge] [DEBUG] Checking updates...
+06-10-2020 23:06:34.224 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 23:06:34.332 [java] [DEBUG] multithreading is set to false
+06-10-2020 23:06:34.548 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 23:06:34.604 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 23:06:34.685 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+06-10-2020 23:06:35.359 [java] [DEBUG] gauge-java took 1019milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+06-10-2020 23:06:35.359 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1019
+06-10-2020 23:06:35.359 [java] [DEBUG] starting gRPC server...
+06-10-2020 23:06:35.808 [java] [DEBUG] started gRPC server on port 64104
+06-10-2020 23:06:35.808 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64104
+06-10-2020 23:06:36.039 [Gauge] [DEBUG] Successfully made the connection with runner with port: 64104
+06-10-2020 23:06:36.039 [Gauge] [DEBUG] Validation started.
+06-10-2020 23:06:38.494 [java] [DEBUG] Scanning packages for steps
+06-10-2020 23:06:38.508 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickOnSignInButton' and 'apppack.HomeStepImpl.ClickOnSignInButton'
+06-10-2020 23:06:38.508 [java] [DEBUG] Found Click Sign in in current project scope.
+06-10-2020 23:06:38.514 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickTheSignInButton' and 'apppack.HomeStepImpl.ClickTheSignInButton'
+06-10-2020 23:06:38.514 [java] [DEBUG] Found Click on Sign in button in current project scope.
+06-10-2020 23:06:38.514 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterTheEmail' and 'apppack.HomeStepImpl.EnterTheEmail'
+06-10-2020 23:06:38.515 [java] [DEBUG] Found Enter Email {} in current project scope.
+06-10-2020 23:06:38.515 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterThePassword' and 'apppack.HomeStepImpl.EnterThePassword'
+06-10-2020 23:06:38.515 [java] [DEBUG] Found Enter Password {} in current project scope.
+06-10-2020 23:06:38.515 [java] [DEBUG] Scanning packages for hooks
+06-10-2020 23:06:38.518 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+06-10-2020 23:06:38.527 [java] [DEBUG] 	Click Sign in : public void ClickOnSignInButton()
+06-10-2020 23:06:38.527 [java] [DEBUG] 	Enter Email {} : public void EnterTheEmail(String email)
+06-10-2020 23:06:38.527 [java] [DEBUG] 	Enter Password {} : public void EnterThePassword(String password)
+06-10-2020 23:06:38.527 [java] [DEBUG] 	Click on Sign in button : public void ClickTheSignInButton()
+06-10-2020 23:06:40.609 [Gauge] [DEBUG] Validation completed.
+06-10-2020 23:06:40.651 [Gauge] [DEBUG] Run started
+06-10-2020 23:06:40.654 [Gauge] [DEBUG] Starting Html Report plugin
+06-10-2020 23:06:40.893 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64109
+06-10-2020 23:06:40.894 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 64109
+06-10-2020 23:06:40.895 [Gauge] [DEBUG] Initialising suite data store.
+06-10-2020 23:06:42.025 [java] [ERROR] Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 34252
+06-10-2020 23:06:42.025 [java] [ERROR] Only local connections are allowed.
+06-10-2020 23:06:42.025 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+06-10-2020 23:06:42.030 [java] [ERROR] ChromeDriver was started successfully.
+06-10-2020 23:06:45.365 [java] [ERROR] [1602005805.364][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+06-10-2020 23:06:47.821 [java] [ERROR] Oct 06, 2020 11:06:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+06-10-2020 23:06:47.821 [java] [ERROR] INFO: Detected dialect: W3C
+06-10-2020 23:07:02.413 [java] [DEBUG] Executing 'Click on Sign in button' using 'class apppack.HomeStepImpl.ClickTheSignInButton
+06-10-2020 23:07:05.088 [java] [DEBUG] Executing 'Enter Email {}' using 'class apppack.HomeStepImpl.EnterTheEmail
+06-10-2020 23:07:05.273 [java] [DEBUG] Executing 'Enter Password {}' using 'class apppack.HomeStepImpl.EnterThePassword
+06-10-2020 23:07:05.384 [java] [DEBUG] Executing 'Click Sign in' using 'class apppack.HomeStepImpl.ClickOnSignInButton
+06-10-2020 23:07:08.744 [html-report] [DEBUG] Transformed SuiteResult to report structure
+06-10-2020 23:07:09.008 [html-report] [INFO] Successfully generated html-report to => C:\Automation\GaugeProject\reports\html-report\index.html
+06-10-2020 23:07:09.008 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+06-10-2020 23:07:09.008 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Dell\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+06-10-2020 23:07:10.088 [Gauge] [DEBUG] Runner with PID:13104 has exited
+06-10-2020 23:07:10.088 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-10-2020 23:07:10.088 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+06-10-2020 23:07:10.118 [Gauge] [INFO] 
+Total time taken: 28.014s
+06-10-2020 23:07:10.118 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-10-2020 23:12:57.712 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Automation\GaugeProject\.gauge\screenshots
+06-10-2020 23:12:57.714 [Gauge] [DEBUG] Plugin java is already installed.
+06-10-2020 23:12:57.715 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-10-2020 23:12:57.719 [Gauge] [DEBUG] Parsing started.
+06-10-2020 23:12:57.719 [Gauge] [DEBUG] Started concepts parsing.
+06-10-2020 23:12:57.730 [Gauge] [DEBUG] 0 concepts parsing completed.
+06-10-2020 23:12:57.730 [Gauge] [DEBUG] Started specifications parsing.
+06-10-2020 23:12:57.730 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-10-2020 23:12:57.730 [Gauge] [DEBUG] Parsing completed.
+06-10-2020 23:12:59.185 [Gauge] [DEBUG] Checking updates...
+06-10-2020 23:12:59.236 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 23:12:59.488 [java] [DEBUG] multithreading is set to false
+06-10-2020 23:12:59.579 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 23:12:59.685 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+06-10-2020 23:12:59.911 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+06-10-2020 23:13:00.573 [java] [DEBUG] gauge-java took 1069milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+06-10-2020 23:13:00.573 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1069
+06-10-2020 23:13:00.573 [java] [DEBUG] starting gRPC server...
+06-10-2020 23:13:01.028 [java] [DEBUG] started gRPC server on port 64247
+06-10-2020 23:13:01.044 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64247
+06-10-2020 23:13:01.270 [Gauge] [DEBUG] Successfully made the connection with runner with port: 64247
+06-10-2020 23:13:01.270 [Gauge] [DEBUG] Validation started.
+06-10-2020 23:13:03.827 [java] [DEBUG] Scanning packages for steps
+06-10-2020 23:13:03.842 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickOnSignInButton' and 'apppack.HomeStepImpl.ClickOnSignInButton'
+06-10-2020 23:13:03.842 [java] [DEBUG] Found Click Sign in in current project scope.
+06-10-2020 23:13:03.842 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickTheSignInButton' and 'apppack.HomeStepImpl.ClickTheSignInButton'
+06-10-2020 23:13:03.842 [java] [DEBUG] Found Click on Sign in button in current project scope.
+06-10-2020 23:13:03.842 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterTheEmail' and 'apppack.HomeStepImpl.EnterTheEmail'
+06-10-2020 23:13:03.857 [java] [DEBUG] Found Enter Email {} in current project scope.
+06-10-2020 23:13:03.857 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterThePassword' and 'apppack.HomeStepImpl.EnterThePassword'
+06-10-2020 23:13:03.857 [java] [DEBUG] Found Enter Password {} in current project scope.
+06-10-2020 23:13:03.857 [java] [DEBUG] Scanning packages for hooks
+06-10-2020 23:13:03.857 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+06-10-2020 23:13:03.857 [java] [DEBUG] 	Click Sign in : public void ClickOnSignInButton()
+06-10-2020 23:13:03.857 [java] [DEBUG] 	Enter Email {} : public void EnterTheEmail(String email)
+06-10-2020 23:13:03.857 [java] [DEBUG] 	Enter Password {} : public void EnterThePassword(String password)
+06-10-2020 23:13:03.857 [java] [DEBUG] 	Click on Sign in button : public void ClickTheSignInButton()
+06-10-2020 23:13:05.882 [Gauge] [DEBUG] Validation completed.
+06-10-2020 23:13:05.882 [Gauge] [DEBUG] Run started
+06-10-2020 23:13:05.887 [Gauge] [DEBUG] Starting Html Report plugin
+06-10-2020 23:13:05.959 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64250
+06-10-2020 23:13:05.960 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 64250
+06-10-2020 23:13:05.961 [Gauge] [DEBUG] Initialising suite data store.
+06-10-2020 23:13:06.626 [java] [ERROR] Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 29342
+06-10-2020 23:13:06.626 [java] [ERROR] Only local connections are allowed.
+06-10-2020 23:13:06.626 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+06-10-2020 23:13:06.631 [java] [ERROR] ChromeDriver was started successfully.
+06-10-2020 23:13:08.466 [java] [ERROR] [1602006188.466][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+06-10-2020 23:13:10.543 [java] [ERROR] Oct 06, 2020 11:13:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+06-10-2020 23:13:10.543 [java] [ERROR] INFO: Detected dialect: W3C
+06-10-2020 23:13:18.720 [java] [DEBUG] Executing 'Click on Sign in button' using 'class apppack.HomeStepImpl.ClickTheSignInButton
+06-10-2020 23:13:22.521 [java] [DEBUG] Executing 'Enter Email {}' using 'class apppack.HomeStepImpl.EnterTheEmail
+06-10-2020 23:13:22.698 [java] [DEBUG] Executing 'Enter Password {}' using 'class apppack.HomeStepImpl.EnterThePassword
+06-10-2020 23:13:22.805 [java] [DEBUG] Executing 'Click Sign in' using 'class apppack.HomeStepImpl.ClickOnSignInButton
+06-10-2020 23:13:24.758 [html-report] [DEBUG] Transformed SuiteResult to report structure
+06-10-2020 23:13:24.771 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+06-10-2020 23:13:24.771 [html-report] [INFO] Successfully generated html-report to => C:\Automation\GaugeProject\reports\html-report\index.html
+06-10-2020 23:13:24.771 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Dell\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+06-10-2020 23:13:25.283 [Gauge] [DEBUG] Runner with PID:6328 has exited
+06-10-2020 23:13:25.283 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-10-2020 23:13:25.283 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+06-10-2020 23:13:25.283 [Gauge] [INFO] 
+Total time taken: 18.873s
+06-10-2020 23:13:25.283 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+01-11-2020 12:16:30.208 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\.gauge\screenshots
+01-11-2020 12:16:30.387 [Gauge] [DEBUG] Plugin java is already installed.
+01-11-2020 12:16:30.393 [Gauge] [DEBUG] Plugin html-report is already installed.
+01-11-2020 12:16:30.438 [Gauge] [DEBUG] Parsing started.
+01-11-2020 12:16:30.438 [Gauge] [DEBUG] Started concepts parsing.
+01-11-2020 12:16:30.540 [Gauge] [DEBUG] 1 concepts parsing completed.
+01-11-2020 12:16:30.541 [Gauge] [DEBUG] Started specifications parsing.
+01-11-2020 12:16:30.541 [Gauge] [DEBUG] 1 specifications parsing completed.
+01-11-2020 12:16:30.554 [Gauge] [DEBUG] Parsing completed.
+01-11-2020 12:16:33.701 [Gauge] [DEBUG] Checking updates...
+01-11-2020 12:16:33.702 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+01-11-2020 12:16:35.286 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+01-11-2020 12:16:35.738 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+01-11-2020 12:16:35.766 [java] [DEBUG] multithreading is set to false
+01-11-2020 12:16:36.131 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+01-11-2020 12:16:37.203 [java] [DEBUG] gauge-java took 1413milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+01-11-2020 12:16:37.203 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1413
+01-11-2020 12:16:37.203 [java] [DEBUG] starting gRPC server...
+01-11-2020 12:16:37.757 [java] [DEBUG] started gRPC server on port 53270
+01-11-2020 12:16:37.760 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53270
+01-11-2020 12:16:38.344 [Gauge] [DEBUG] Successfully made the connection with runner with port: 53270
+01-11-2020 12:16:38.344 [Gauge] [DEBUG] Validation started.
+01-11-2020 12:16:41.389 [java] [DEBUG] Scanning packages for steps
+01-11-2020 12:16:41.511 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickOnSignInButton' and 'apppack.HomeStepImpl.ClickOnSignInButton'
+01-11-2020 12:16:41.511 [java] [DEBUG] Found Click Sign in in current project scope.
+01-11-2020 12:16:41.514 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickTheSignInButton' and 'apppack.HomeStepImpl.ClickTheSignInButton'
+01-11-2020 12:16:41.514 [java] [DEBUG] Found Click on Sign in button in current project scope.
+01-11-2020 12:16:41.514 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterThePassword' and 'apppack.HomeStepImpl.EnterThePassword'
+01-11-2020 12:16:41.514 [java] [DEBUG] Found Enter Password {} in current project scope.
+01-11-2020 12:16:41.514 [java] [DEBUG] Comparing 'util.Driver.SetPreSettings' and 'util.Driver.SetPreSettings'
+01-11-2020 12:16:41.514 [java] [DEBUG] Found Invoke the Driver to lauch AutomationPractice in current project scope.
+01-11-2020 12:16:41.515 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterTheEmail' and 'apppack.HomeStepImpl.EnterTheEmail'
+01-11-2020 12:16:41.515 [java] [DEBUG] Found Enter Email {} in current project scope.
+01-11-2020 12:16:41.515 [java] [DEBUG] Scanning packages for hooks
+01-11-2020 12:16:41.517 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+01-11-2020 12:16:41.517 [java] [DEBUG] 	Click Sign in : public void ClickOnSignInButton()
+01-11-2020 12:16:41.517 [java] [DEBUG] 	Enter Email {} : public void EnterTheEmail(String email)
+01-11-2020 12:16:41.517 [java] [DEBUG] 	Enter Password {} : public void EnterThePassword(String password)
+01-11-2020 12:16:41.517 [java] [DEBUG] 	Invoke the Driver to lauch AutomationPractice : public void SetPreSettings()
+01-11-2020 12:16:41.517 [java] [DEBUG] 	Click on Sign in button : public void ClickTheSignInButton()
+01-11-2020 12:16:44.197 [Gauge] [DEBUG] Validation completed.
+01-11-2020 12:16:45.076 [Gauge] [DEBUG] Run started
+01-11-2020 12:16:45.084 [Gauge] [DEBUG] Starting Html Report plugin
+01-11-2020 12:16:46.204 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61238
+01-11-2020 12:16:46.383 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61238
+01-11-2020 12:16:46.383 [Gauge] [DEBUG] Initialising suite data store.
+01-11-2020 12:16:47.076 [java] [DEBUG] Executing 'Invoke the Driver to lauch AutomationPractice' using 'class util.Driver.SetPreSettings
+01-11-2020 12:16:49.962 [java] [ERROR] Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 25589
+01-11-2020 12:16:49.962 [java] [ERROR] Only local connections are allowed.
+01-11-2020 12:16:49.962 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+01-11-2020 12:16:49.976 [java] [ERROR] ChromeDriver was started successfully.
+01-11-2020 12:16:54.700 [java] [ERROR] Nov 01, 2020 12:16:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+01-11-2020 12:16:54.700 [java] [ERROR] INFO: Detected dialect: W3C
+01-11-2020 12:17:03.146 [java] [DEBUG] Executing 'Click on Sign in button' using 'class apppack.HomeStepImpl.ClickTheSignInButton
+01-11-2020 12:17:07.471 [java] [DEBUG] Executing 'Enter Email {}' using 'class apppack.HomeStepImpl.EnterTheEmail
+01-11-2020 12:17:08.055 [java] [DEBUG] Executing 'Enter Password {}' using 'class apppack.HomeStepImpl.EnterThePassword
+01-11-2020 12:17:08.155 [java] [DEBUG] Executing 'Click Sign in' using 'class apppack.HomeStepImpl.ClickOnSignInButton
+01-11-2020 12:17:10.607 [html-report] [DEBUG] Transformed SuiteResult to report structure
+01-11-2020 12:17:12.039 [html-report] [INFO] Successfully generated html-report to => C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\reports\html-report\index.html
+01-11-2020 12:17:12.039 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Dell\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+01-11-2020 12:17:12.039 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+01-11-2020 12:17:16.025 [Gauge] [DEBUG] Runner with PID:13896 has exited
+01-11-2020 12:17:16.025 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+01-11-2020 12:17:16.025 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+01-11-2020 12:17:16.052 [Gauge] [INFO] 
+Total time taken: 25.006s
+01-11-2020 12:17:16.052 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+01-11-2020 12:17:31.899 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\.gauge\screenshots
+01-11-2020 12:17:31.903 [Gauge] [DEBUG] Plugin java is already installed.
+01-11-2020 12:17:31.904 [Gauge] [DEBUG] Plugin html-report is already installed.
+01-11-2020 12:17:31.904 [Gauge] [DEBUG] Parsing started.
+01-11-2020 12:17:31.904 [Gauge] [DEBUG] Started concepts parsing.
+01-11-2020 12:17:32.033 [Gauge] [DEBUG] 1 concepts parsing completed.
+01-11-2020 12:17:32.033 [Gauge] [DEBUG] Started specifications parsing.
+01-11-2020 12:17:32.033 [Gauge] [DEBUG] 1 specifications parsing completed.
+01-11-2020 12:17:32.033 [Gauge] [DEBUG] Parsing completed.
+01-11-2020 12:17:33.019 [Gauge] [DEBUG] Checking updates...
+01-11-2020 12:17:33.035 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+01-11-2020 12:17:33.336 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+01-11-2020 12:17:33.427 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+01-11-2020 12:17:33.747 [java] [DEBUG] multithreading is set to false
+01-11-2020 12:17:34.377 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+01-11-2020 12:17:35.216 [java] [DEBUG] gauge-java took 1442milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+01-11-2020 12:17:35.216 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1442
+01-11-2020 12:17:35.216 [java] [DEBUG] starting gRPC server...
+01-11-2020 12:17:35.905 [java] [DEBUG] started gRPC server on port 64078
+01-11-2020 12:17:35.908 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64078
+01-11-2020 12:17:36.188 [Gauge] [DEBUG] Successfully made the connection with runner with port: 64078
+01-11-2020 12:17:36.188 [Gauge] [DEBUG] Validation started.
+01-11-2020 12:17:38.503 [java] [DEBUG] Scanning packages for steps
+01-11-2020 12:17:38.536 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickOnSignInButton' and 'apppack.HomeStepImpl.ClickOnSignInButton'
+01-11-2020 12:17:38.536 [java] [DEBUG] Found Click Sign in in current project scope.
+01-11-2020 12:17:38.537 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickTheSignInButton' and 'apppack.HomeStepImpl.ClickTheSignInButton'
+01-11-2020 12:17:38.537 [java] [DEBUG] Found Click on Sign in button in current project scope.
+01-11-2020 12:17:38.537 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterThePassword' and 'apppack.HomeStepImpl.EnterThePassword'
+01-11-2020 12:17:38.537 [java] [DEBUG] Found Enter Password {} in current project scope.
+01-11-2020 12:17:38.538 [java] [DEBUG] Comparing 'util.Driver.SetPreSettings' and 'util.Driver.SetPreSettings'
+01-11-2020 12:17:38.538 [java] [DEBUG] Found Invoke the Driver to lauch AutomationPractice in current project scope.
+01-11-2020 12:17:38.538 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterTheEmail' and 'apppack.HomeStepImpl.EnterTheEmail'
+01-11-2020 12:17:38.538 [java] [DEBUG] Found Enter Email {} in current project scope.
+01-11-2020 12:17:38.587 [java] [DEBUG] Scanning packages for hooks
+01-11-2020 12:17:38.587 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+01-11-2020 12:17:38.587 [java] [DEBUG] 	Click Sign in : public void ClickOnSignInButton()
+01-11-2020 12:17:38.587 [java] [DEBUG] 	Enter Email {} : public void EnterTheEmail(String email)
+01-11-2020 12:17:38.587 [java] [DEBUG] 	Enter Password {} : public void EnterThePassword(String password)
+01-11-2020 12:17:38.587 [java] [DEBUG] 	Invoke the Driver to lauch AutomationPractice : public void SetPreSettings()
+01-11-2020 12:17:38.587 [java] [DEBUG] 	Click on Sign in button : public void ClickTheSignInButton()
+01-11-2020 12:17:40.821 [Gauge] [DEBUG] Validation completed.
+01-11-2020 12:17:40.821 [Gauge] [DEBUG] Run started
+01-11-2020 12:17:40.821 [Gauge] [DEBUG] Starting Html Report plugin
+01-11-2020 12:17:41.069 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63693
+01-11-2020 12:17:41.084 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 63693
+01-11-2020 12:17:41.084 [Gauge] [DEBUG] Initialising suite data store.
+01-11-2020 12:17:41.140 [java] [DEBUG] Executing 'Invoke the Driver to lauch AutomationPractice' using 'class util.Driver.SetPreSettings
+01-11-2020 12:17:41.597 [java] [ERROR] Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 49117
+01-11-2020 12:17:41.597 [java] [ERROR] Only local connections are allowed.
+01-11-2020 12:17:41.597 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+01-11-2020 12:17:41.633 [java] [ERROR] ChromeDriver was started successfully.
+01-11-2020 12:17:45.333 [java] [ERROR] Nov 01, 2020 12:17:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+01-11-2020 12:17:45.333 [java] [ERROR] INFO: Detected dialect: W3C
+01-11-2020 12:17:53.927 [java] [DEBUG] Executing 'Click on Sign in button' using 'class apppack.HomeStepImpl.ClickTheSignInButton
+01-11-2020 12:17:56.571 [java] [DEBUG] Executing 'Enter Email {}' using 'class apppack.HomeStepImpl.EnterTheEmail
+01-11-2020 12:17:56.779 [java] [DEBUG] Executing 'Enter Password {}' using 'class apppack.HomeStepImpl.EnterThePassword
+01-11-2020 12:17:56.913 [java] [DEBUG] Executing 'Click Sign in' using 'class apppack.HomeStepImpl.ClickOnSignInButton
+01-11-2020 12:18:01.698 [html-report] [DEBUG] Transformed SuiteResult to report structure
+01-11-2020 12:18:01.882 [html-report] [INFO] Successfully generated html-report to => C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\reports\html-report\index.html
+01-11-2020 12:18:01.882 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Dell\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+01-11-2020 12:18:01.882 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+01-11-2020 12:18:03.671 [Gauge] [DEBUG] Runner with PID:6272 has exited
+01-11-2020 12:18:03.671 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+01-11-2020 12:18:03.671 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+01-11-2020 12:18:03.686 [Gauge] [INFO] 
+Total time taken: 20.795s
+01-11-2020 12:18:03.686 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+17-01-2021 20:37:15.918 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\.gauge\screenshots
+17-01-2021 20:37:16.122 [Gauge] [DEBUG] Plugin java is already installed.
+17-01-2021 20:37:16.136 [Gauge] [DEBUG] Plugin html-report is already installed.
+17-01-2021 20:37:16.159 [Gauge] [DEBUG] Parsing started.
+17-01-2021 20:37:16.160 [Gauge] [DEBUG] Started concepts parsing.
+17-01-2021 20:37:16.262 [Gauge] [DEBUG] 1 concepts parsing completed.
+17-01-2021 20:37:16.262 [Gauge] [DEBUG] Started specifications parsing.
+17-01-2021 20:37:16.263 [Gauge] [DEBUG] 1 specifications parsing completed.
+17-01-2021 20:37:16.281 [Gauge] [DEBUG] Parsing completed.
+17-01-2021 20:37:17.741 [Gauge] [DEBUG] Checking updates...
+17-01-2021 20:37:17.744 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 20:37:18.348 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 20:37:18.397 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 20:37:32.711 [java] [DEBUG] multithreading is set to false
+17-01-2021 20:37:33.457 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+17-01-2021 20:37:35.055 [java] [DEBUG] gauge-java took 2375milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+17-01-2021 20:37:35.055 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 2375
+17-01-2021 20:37:35.071 [java] [DEBUG] starting gRPC server...
+17-01-2021 20:37:35.562 [java] [DEBUG] started gRPC server on port 60182
+17-01-2021 20:37:35.664 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60182
+17-01-2021 20:37:36.353 [Gauge] [DEBUG] Successfully made the connection with runner with port: 60182
+17-01-2021 20:37:36.372 [Gauge] [DEBUG] Validation started.
+17-01-2021 20:37:42.749 [java] [DEBUG] Scanning packages for steps
+17-01-2021 20:37:42.828 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.before' and 'apppack.HomeStepImpl.before'
+17-01-2021 20:37:42.828 [java] [DEBUG] Found Invoke the Driver to lauch AutomationPractice in current project scope.
+17-01-2021 20:37:42.828 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickOnSignInButton' and 'apppack.HomeStepImpl.ClickOnSignInButton'
+17-01-2021 20:37:42.828 [java] [DEBUG] Found Click Sign in in current project scope.
+17-01-2021 20:37:42.828 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickTheSignInButton' and 'apppack.HomeStepImpl.ClickTheSignInButton'
+17-01-2021 20:37:42.828 [java] [DEBUG] Found Click on Sign in button in current project scope.
+17-01-2021 20:37:42.829 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterThePassword' and 'apppack.HomeStepImpl.EnterThePassword'
+17-01-2021 20:37:42.829 [java] [DEBUG] Found Enter Password {} in current project scope.
+17-01-2021 20:37:42.829 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterTheEmail' and 'apppack.HomeStepImpl.EnterTheEmail'
+17-01-2021 20:37:42.829 [java] [DEBUG] Found Enter Email {} in current project scope.
+17-01-2021 20:37:42.829 [java] [DEBUG] Scanning packages for hooks
+17-01-2021 20:37:42.850 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+17-01-2021 20:37:42.853 [java] [DEBUG] 	Click Sign in : public void ClickOnSignInButton()
+17-01-2021 20:37:42.853 [java] [DEBUG] 	Enter Email {} : public void EnterTheEmail(String email)
+17-01-2021 20:37:42.853 [java] [DEBUG] 	Enter Password {} : public void EnterThePassword(String password)
+17-01-2021 20:37:42.853 [java] [DEBUG] 	Invoke the Driver to lauch AutomationPractice : public void before()
+17-01-2021 20:37:42.853 [java] [DEBUG] 	Click on Sign in button : public void ClickTheSignInButton()
+17-01-2021 20:37:45.646 [Gauge] [DEBUG] Validation completed.
+17-01-2021 20:37:45.668 [Gauge] [DEBUG] Run started
+17-01-2021 20:37:45.671 [Gauge] [DEBUG] Starting Html Report plugin
+17-01-2021 20:37:46.296 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60186
+17-01-2021 20:37:46.298 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 60186
+17-01-2021 20:37:46.298 [Gauge] [DEBUG] Initialising suite data store.
+17-01-2021 20:37:46.556 [java] [DEBUG] Executing 'Invoke the Driver to lauch AutomationPractice' using 'class apppack.HomeStepImpl.before
+17-01-2021 20:37:49.128 [java] [ERROR] Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 46482
+17-01-2021 20:37:49.128 [java] [ERROR] Only local connections are allowed.
+17-01-2021 20:37:49.128 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+17-01-2021 20:37:49.163 [java] [ERROR] ChromeDriver was started successfully.
+17-01-2021 20:37:57.740 [java] [ERROR] [1610896077.735][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+17-01-2021 20:38:02.363 [java] [ERROR] Jan 17, 2021 8:38:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+17-01-2021 20:38:02.363 [java] [ERROR] INFO: Detected dialect: W3C
+17-01-2021 20:38:18.822 [java] [DEBUG] Executing 'Click on Sign in button' using 'class apppack.HomeStepImpl.ClickTheSignInButton
+17-01-2021 20:38:19.826 [java] [DEBUG] Executing 'Enter Email {}' using 'class apppack.HomeStepImpl.EnterTheEmail
+17-01-2021 20:38:22.721 [html-report] [DEBUG] Transformed SuiteResult to report structure
+17-01-2021 20:38:24.653 [html-report] [INFO] Successfully generated html-report to => C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\reports\html-report\index.html
+17-01-2021 20:38:24.653 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Dell\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+17-01-2021 20:38:24.653 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+17-01-2021 20:38:28.737 [Gauge] [WARNING] Killing runner with PID:31200 forcefully
+17-01-2021 20:38:28.738 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+17-01-2021 20:38:28.738 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17-01-2021 20:38:28.790 [Gauge] [INFO] 
+Total time taken: 36.537s
+17-01-2021 20:38:28.791 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+17-01-2021 20:38:44.132 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\.gauge\screenshots
+17-01-2021 20:38:44.134 [Gauge] [DEBUG] Plugin java is already installed.
+17-01-2021 20:38:44.135 [Gauge] [DEBUG] Plugin html-report is already installed.
+17-01-2021 20:38:44.135 [Gauge] [DEBUG] Parsing started.
+17-01-2021 20:38:44.136 [Gauge] [DEBUG] Started concepts parsing.
+17-01-2021 20:38:44.141 [Gauge] [DEBUG] 1 concepts parsing completed.
+17-01-2021 20:38:44.141 [Gauge] [DEBUG] Started specifications parsing.
+17-01-2021 20:38:44.141 [Gauge] [DEBUG] 1 specifications parsing completed.
+17-01-2021 20:38:44.141 [Gauge] [DEBUG] Parsing completed.
+17-01-2021 20:38:44.836 [Gauge] [DEBUG] Checking updates...
+17-01-2021 20:38:44.914 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 20:38:45.269 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 20:38:45.423 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 20:38:47.529 [java] [DEBUG] multithreading is set to false
+17-01-2021 20:38:48.010 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+17-01-2021 20:38:48.899 [java] [DEBUG] gauge-java took 1337milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+17-01-2021 20:38:48.899 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1337
+17-01-2021 20:38:48.899 [java] [DEBUG] starting gRPC server...
+17-01-2021 20:38:49.304 [java] [DEBUG] started gRPC server on port 60249
+17-01-2021 20:38:49.305 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60249
+17-01-2021 20:38:49.549 [Gauge] [DEBUG] Successfully made the connection with runner with port: 60249
+17-01-2021 20:38:49.549 [Gauge] [DEBUG] Validation started.
+17-01-2021 20:38:54.374 [java] [DEBUG] Scanning packages for steps
+17-01-2021 20:38:54.439 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.before' and 'apppack.HomeStepImpl.before'
+17-01-2021 20:38:54.439 [java] [DEBUG] Found Invoke the Driver to lauch AutomationPractice in current project scope.
+17-01-2021 20:38:54.439 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickOnSignInButton' and 'apppack.HomeStepImpl.ClickOnSignInButton'
+17-01-2021 20:38:54.439 [java] [DEBUG] Found Click Sign in in current project scope.
+17-01-2021 20:38:54.439 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickTheSignInButton' and 'apppack.HomeStepImpl.ClickTheSignInButton'
+17-01-2021 20:38:54.439 [java] [DEBUG] Found Click on Sign in button in current project scope.
+17-01-2021 20:38:54.439 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterThePassword' and 'apppack.HomeStepImpl.EnterThePassword'
+17-01-2021 20:38:54.439 [java] [DEBUG] Found Enter Password {} in current project scope.
+17-01-2021 20:38:54.439 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterTheEmail' and 'apppack.HomeStepImpl.EnterTheEmail'
+17-01-2021 20:38:54.439 [java] [DEBUG] Found Enter Email {} in current project scope.
+17-01-2021 20:38:54.439 [java] [DEBUG] Scanning packages for hooks
+17-01-2021 20:38:54.439 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+17-01-2021 20:38:54.439 [java] [DEBUG] 	Click Sign in : public void ClickOnSignInButton()
+17-01-2021 20:38:54.439 [java] [DEBUG] 	Enter Email {} : public void EnterTheEmail(String email)
+17-01-2021 20:38:54.439 [java] [DEBUG] 	Enter Password {} : public void EnterThePassword(String password)
+17-01-2021 20:38:54.439 [java] [DEBUG] 	Invoke the Driver to lauch AutomationPractice : public void before()
+17-01-2021 20:38:54.439 [java] [DEBUG] 	Click on Sign in button : public void ClickTheSignInButton()
+17-01-2021 20:38:56.644 [Gauge] [DEBUG] Validation completed.
+17-01-2021 20:38:56.645 [Gauge] [DEBUG] Run started
+17-01-2021 20:38:56.646 [Gauge] [DEBUG] Starting Html Report plugin
+17-01-2021 20:38:56.663 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60255
+17-01-2021 20:38:56.750 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 60255
+17-01-2021 20:38:56.750 [Gauge] [DEBUG] Initialising suite data store.
+17-01-2021 20:38:56.887 [java] [DEBUG] Executing 'Invoke the Driver to lauch AutomationPractice' using 'class apppack.HomeStepImpl.before
+17-01-2021 20:38:57.451 [java] [ERROR] Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 27797
+17-01-2021 20:38:57.451 [java] [ERROR] Only local connections are allowed.
+17-01-2021 20:38:57.451 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+17-01-2021 20:38:57.462 [java] [ERROR] ChromeDriver was started successfully.
+17-01-2021 20:38:59.323 [java] [ERROR] [1610896139.324][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+17-01-2021 20:39:02.518 [java] [ERROR] Jan 17, 2021 8:39:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+17-01-2021 20:39:02.518 [java] [ERROR] INFO: Detected dialect: W3C
+17-01-2021 20:39:17.235 [java] [DEBUG] Executing 'Click on Sign in button' using 'class apppack.HomeStepImpl.ClickTheSignInButton
+17-01-2021 20:39:23.149 [java] [DEBUG] Executing 'Enter Email {}' using 'class apppack.HomeStepImpl.EnterTheEmail
+17-01-2021 20:39:23.560 [java] [DEBUG] Executing 'Enter Password {}' using 'class apppack.HomeStepImpl.EnterThePassword
+17-01-2021 20:39:23.767 [java] [DEBUG] Executing 'Click Sign in' using 'class apppack.HomeStepImpl.ClickOnSignInButton
+17-01-2021 20:39:30.772 [html-report] [DEBUG] Transformed SuiteResult to report structure
+17-01-2021 20:39:32.059 [html-report] [INFO] Successfully generated html-report to => C:\Automation\1_0_Gauge_PFD_BaseScript_AutomationPractice\reports\html-report\index.html
+17-01-2021 20:39:32.059 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Dell\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+17-01-2021 20:39:32.059 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+17-01-2021 20:39:36.309 [Gauge] [WARNING] Killing runner with PID:33136 forcefully
+17-01-2021 20:39:36.310 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+17-01-2021 20:39:36.310 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+17-01-2021 20:39:36.349 [Gauge] [INFO] 
+Total time taken: 33.85s
+17-01-2021 20:39:36.349 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+17-01-2021 21:44:07.757 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Automation\5_Git_Gauge_Project\.gauge\screenshots
+17-01-2021 21:44:07.763 [Gauge] [DEBUG] Plugin java is already installed.
+17-01-2021 21:44:07.763 [Gauge] [DEBUG] Plugin html-report is already installed.
+17-01-2021 21:44:07.766 [Gauge] [DEBUG] Parsing started.
+17-01-2021 21:44:07.766 [Gauge] [DEBUG] Started concepts parsing.
+17-01-2021 21:44:07.808 [Gauge] [DEBUG] 1 concepts parsing completed.
+17-01-2021 21:44:07.809 [Gauge] [DEBUG] Started specifications parsing.
+17-01-2021 21:44:07.809 [Gauge] [DEBUG] 1 specifications parsing completed.
+17-01-2021 21:44:07.809 [Gauge] [DEBUG] Parsing completed.
+17-01-2021 21:44:08.798 [Gauge] [DEBUG] Checking updates...
+17-01-2021 21:44:08.802 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 21:44:09.397 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 21:44:09.700 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 21:44:13.199 [java] [DEBUG] multithreading is set to false
+17-01-2021 21:44:13.683 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+17-01-2021 21:44:14.120 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+17-01-2021 21:44:14.120 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+17-01-2021 21:44:14.120 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+17-01-2021 21:44:15.297 [java] [DEBUG] gauge-java took 2133milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+17-01-2021 21:44:15.297 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 2133
+17-01-2021 21:44:15.297 [java] [DEBUG] starting gRPC server...
+17-01-2021 21:44:15.813 [java] [DEBUG] started gRPC server on port 61066
+17-01-2021 21:44:15.817 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61066
+17-01-2021 21:44:16.266 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61066
+17-01-2021 21:44:16.266 [Gauge] [DEBUG] Validation started.
+17-01-2021 21:44:25.481 [java] [DEBUG] Scanning packages for steps
+17-01-2021 21:44:25.537 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.before' and 'apppack.HomeStepImpl.before'
+17-01-2021 21:44:25.537 [java] [DEBUG] Found Invoke the Driver to launch AutomationPractice in current project scope.
+17-01-2021 21:44:25.537 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickOnSignInButton' and 'apppack.HomeStepImpl.ClickOnSignInButton'
+17-01-2021 21:44:25.537 [java] [DEBUG] Found Click Sign in in current project scope.
+17-01-2021 21:44:25.537 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickTheSignInButton' and 'apppack.HomeStepImpl.ClickTheSignInButton'
+17-01-2021 21:44:25.538 [java] [DEBUG] Found Click on Sign in button in current project scope.
+17-01-2021 21:44:25.538 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterThePassword' and 'apppack.HomeStepImpl.EnterThePassword'
+17-01-2021 21:44:25.538 [java] [DEBUG] Found Enter Password {} in current project scope.
+17-01-2021 21:44:25.538 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterTheEmail' and 'apppack.HomeStepImpl.EnterTheEmail'
+17-01-2021 21:44:25.538 [java] [DEBUG] Found Enter Email {} in current project scope.
+17-01-2021 21:44:25.538 [java] [DEBUG] Scanning packages for hooks
+17-01-2021 21:44:25.553 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+17-01-2021 21:44:25.555 [java] [DEBUG] 	Click Sign in : public void ClickOnSignInButton()
+17-01-2021 21:44:25.555 [java] [DEBUG] 	Enter Email {} : public void EnterTheEmail(String email)
+17-01-2021 21:44:25.555 [java] [DEBUG] 	Enter Password {} : public void EnterThePassword(String password)
+17-01-2021 21:44:25.555 [java] [DEBUG] 	Invoke the Driver to launch AutomationPractice : public void before()
+17-01-2021 21:44:25.555 [java] [DEBUG] 	Click on Sign in button : public void ClickTheSignInButton()
+17-01-2021 21:44:27.719 [Gauge] [DEBUG] Validation completed.
+17-01-2021 21:44:27.777 [Gauge] [DEBUG] Run started
+17-01-2021 21:44:27.779 [Gauge] [DEBUG] Starting Html Report plugin
+17-01-2021 21:44:28.203 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61069
+17-01-2021 21:44:28.281 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61069
+17-01-2021 21:44:28.281 [Gauge] [DEBUG] Initialising suite data store.
+17-01-2021 21:44:28.428 [java] [DEBUG] Executing 'Invoke the Driver to launch AutomationPractice' using 'class apppack.HomeStepImpl.before
+17-01-2021 21:44:30.790 [java] [ERROR] Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 21018
+17-01-2021 21:44:30.790 [java] [ERROR] Only local connections are allowed.
+17-01-2021 21:44:30.790 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+17-01-2021 21:44:30.806 [java] [ERROR] ChromeDriver was started successfully.
+17-01-2021 21:44:46.581 [java] [ERROR] Jan 17, 2021 9:44:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+17-01-2021 21:44:46.581 [java] [ERROR] INFO: Detected dialect: W3C
+17-01-2021 21:44:46.903 [java] [DEBUG] Executing 'Click on Sign in button' using 'class apppack.HomeStepImpl.ClickTheSignInButton
+17-01-2021 21:44:49.355 [html-report] [DEBUG] Transformed SuiteResult to report structure
+17-01-2021 21:44:49.994 [html-report] [INFO] Successfully generated html-report to => C:\Automation\5_Git_Gauge_Project\reports\html-report\index.html
+17-01-2021 21:44:49.994 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Dell\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+17-01-2021 21:44:49.994 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+17-01-2021 21:44:52.339 [Gauge] [DEBUG] Runner with PID:27500 has exited
+17-01-2021 21:44:52.339 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+17-01-2021 21:44:52.339 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17-01-2021 21:44:52.344 [Gauge] [INFO] 
+Total time taken: 21.211s
+17-01-2021 21:44:52.347 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+17-01-2021 21:46:40.333 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Automation\5_Git_Gauge_Project\.gauge\screenshots
+17-01-2021 21:46:40.391 [Gauge] [DEBUG] Plugin java is already installed.
+17-01-2021 21:46:40.393 [Gauge] [DEBUG] Plugin html-report is already installed.
+17-01-2021 21:46:40.394 [Gauge] [DEBUG] Parsing started.
+17-01-2021 21:46:40.394 [Gauge] [DEBUG] Started concepts parsing.
+17-01-2021 21:46:40.590 [Gauge] [DEBUG] 1 concepts parsing completed.
+17-01-2021 21:46:40.590 [Gauge] [DEBUG] Started specifications parsing.
+17-01-2021 21:46:40.591 [Gauge] [DEBUG] 1 specifications parsing completed.
+17-01-2021 21:46:40.591 [Gauge] [DEBUG] Parsing completed.
+17-01-2021 21:46:41.599 [Gauge] [DEBUG] Checking updates...
+17-01-2021 21:46:41.603 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 21:46:41.998 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 21:46:42.632 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 21:46:44.144 [java] [DEBUG] multithreading is set to false
+17-01-2021 21:46:44.611 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+17-01-2021 21:46:44.718 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+17-01-2021 21:46:44.718 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+17-01-2021 21:46:44.718 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+17-01-2021 21:46:45.266 [java] [DEBUG] gauge-java took 1117milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+17-01-2021 21:46:45.266 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1117
+17-01-2021 21:46:45.266 [java] [DEBUG] starting gRPC server...
+17-01-2021 21:46:45.698 [java] [DEBUG] started gRPC server on port 61127
+17-01-2021 21:46:45.701 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61127
+17-01-2021 21:46:45.936 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61127
+17-01-2021 21:46:45.936 [Gauge] [DEBUG] Validation started.
+17-01-2021 21:46:48.311 [java] [DEBUG] Scanning packages for steps
+17-01-2021 21:46:48.335 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.before' and 'apppack.HomeStepImpl.before'
+17-01-2021 21:46:48.335 [java] [DEBUG] Found Invoke the Driver to launch AutomationPractice in current project scope.
+17-01-2021 21:46:48.336 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickOnSignInButton' and 'apppack.HomeStepImpl.ClickOnSignInButton'
+17-01-2021 21:46:48.336 [java] [DEBUG] Found Click Sign in in current project scope.
+17-01-2021 21:46:48.336 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickTheSignInButton' and 'apppack.HomeStepImpl.ClickTheSignInButton'
+17-01-2021 21:46:48.336 [java] [DEBUG] Found Click on Sign in button in current project scope.
+17-01-2021 21:46:48.336 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterThePassword' and 'apppack.HomeStepImpl.EnterThePassword'
+17-01-2021 21:46:48.337 [java] [DEBUG] Found Enter Password {} in current project scope.
+17-01-2021 21:46:48.337 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterTheEmail' and 'apppack.HomeStepImpl.EnterTheEmail'
+17-01-2021 21:46:48.337 [java] [DEBUG] Found Enter Email {} in current project scope.
+17-01-2021 21:46:48.337 [java] [DEBUG] Scanning packages for hooks
+17-01-2021 21:46:48.342 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+17-01-2021 21:46:48.346 [java] [DEBUG] 	Click Sign in : public void ClickOnSignInButton()
+17-01-2021 21:46:48.346 [java] [DEBUG] 	Enter Email {} : public void EnterTheEmail(String email)
+17-01-2021 21:46:48.346 [java] [DEBUG] 	Enter Password {} : public void EnterThePassword(String password)
+17-01-2021 21:46:48.346 [java] [DEBUG] 	Invoke the Driver to launch AutomationPractice : public void before()
+17-01-2021 21:46:48.346 [java] [DEBUG] 	Click on Sign in button : public void ClickTheSignInButton()
+17-01-2021 21:46:50.813 [Gauge] [DEBUG] Validation completed.
+17-01-2021 21:46:50.813 [Gauge] [DEBUG] Run started
+17-01-2021 21:46:50.814 [Gauge] [DEBUG] Starting Html Report plugin
+17-01-2021 21:46:50.988 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61130
+17-01-2021 21:46:50.989 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61130
+17-01-2021 21:46:50.989 [Gauge] [DEBUG] Initialising suite data store.
+17-01-2021 21:46:51.050 [java] [DEBUG] Executing 'Invoke the Driver to launch AutomationPractice' using 'class apppack.HomeStepImpl.before
+17-01-2021 21:46:51.735 [java] [ERROR] Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 15094
+17-01-2021 21:46:51.735 [java] [ERROR] Only local connections are allowed.
+17-01-2021 21:46:51.735 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+17-01-2021 21:46:51.740 [java] [ERROR] ChromeDriver was started successfully.
+17-01-2021 21:46:55.914 [java] [ERROR] Jan 17, 2021 9:46:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+17-01-2021 21:46:55.914 [java] [ERROR] INFO: Detected dialect: W3C
+17-01-2021 21:47:05.757 [java] [DEBUG] Executing 'Click on Sign in button' using 'class apppack.HomeStepImpl.ClickTheSignInButton
+17-01-2021 21:47:08.302 [java] [DEBUG] Executing 'Enter Email {}' using 'class apppack.HomeStepImpl.EnterTheEmail
+17-01-2021 21:47:08.701 [java] [DEBUG] Executing 'Enter Password {}' using 'class apppack.HomeStepImpl.EnterThePassword
+17-01-2021 21:47:08.829 [java] [DEBUG] Executing 'Click Sign in' using 'class apppack.HomeStepImpl.ClickOnSignInButton
+17-01-2021 21:47:11.009 [html-report] [DEBUG] Transformed SuiteResult to report structure
+17-01-2021 21:47:11.523 [html-report] [INFO] Successfully generated html-report to => C:\Automation\5_Git_Gauge_Project\reports\html-report\index.html
+17-01-2021 21:47:11.523 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Dell\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+17-01-2021 21:47:11.523 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+17-01-2021 21:47:13.609 [Gauge] [DEBUG] Runner with PID:15080 has exited
+17-01-2021 21:47:13.609 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+17-01-2021 21:47:13.609 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+17-01-2021 21:47:13.678 [Gauge] [INFO] 
+Total time taken: 20.018s
+17-01-2021 21:47:13.680 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+17-01-2021 21:55:52.958 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Automation\5_Git_Gauge_Project\.gauge\screenshots
+17-01-2021 21:55:53.003 [Gauge] [DEBUG] Plugin java is already installed.
+17-01-2021 21:55:53.004 [Gauge] [DEBUG] Plugin html-report is already installed.
+17-01-2021 21:55:53.032 [Gauge] [DEBUG] Parsing started.
+17-01-2021 21:55:53.032 [Gauge] [DEBUG] Started concepts parsing.
+17-01-2021 21:55:53.051 [Gauge] [DEBUG] 1 concepts parsing completed.
+17-01-2021 21:55:53.051 [Gauge] [DEBUG] Started specifications parsing.
+17-01-2021 21:55:53.052 [Gauge] [DEBUG] 1 specifications parsing completed.
+17-01-2021 21:55:53.052 [Gauge] [DEBUG] Parsing completed.
+17-01-2021 21:55:53.719 [Gauge] [DEBUG] Checking updates...
+17-01-2021 21:55:53.721 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 21:55:54.040 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 21:55:54.087 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 21:55:56.009 [java] [DEBUG] multithreading is set to false
+17-01-2021 21:55:56.349 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+17-01-2021 21:55:56.442 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+17-01-2021 21:55:56.442 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+17-01-2021 21:55:56.442 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+17-01-2021 21:55:56.980 [java] [DEBUG] gauge-java took 963milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+17-01-2021 21:55:56.980 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 963
+17-01-2021 21:55:56.980 [java] [DEBUG] starting gRPC server...
+17-01-2021 21:55:57.438 [java] [DEBUG] started gRPC server on port 61282
+17-01-2021 21:55:57.440 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61282
+17-01-2021 21:55:57.659 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61282
+17-01-2021 21:55:57.659 [Gauge] [DEBUG] Validation started.
+17-01-2021 21:56:00.097 [java] [DEBUG] Scanning packages for steps
+17-01-2021 21:56:00.113 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.before' and 'apppack.HomeStepImpl.before'
+17-01-2021 21:56:00.113 [java] [DEBUG] Found Invoke the Driver to launch AutomationPractice in current project scope.
+17-01-2021 21:56:00.114 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickOnSignInButton' and 'apppack.HomeStepImpl.ClickOnSignInButton'
+17-01-2021 21:56:00.114 [java] [DEBUG] Found Click Sign in in current project scope.
+17-01-2021 21:56:00.114 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickTheSignInButton' and 'apppack.HomeStepImpl.ClickTheSignInButton'
+17-01-2021 21:56:00.114 [java] [DEBUG] Found Click on Sign in button in current project scope.
+17-01-2021 21:56:00.114 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterThePassword' and 'apppack.HomeStepImpl.EnterThePassword'
+17-01-2021 21:56:00.115 [java] [DEBUG] Found Enter Password {} in current project scope.
+17-01-2021 21:56:00.115 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterTheEmail' and 'apppack.HomeStepImpl.EnterTheEmail'
+17-01-2021 21:56:00.115 [java] [DEBUG] Found Enter Email {} in current project scope.
+17-01-2021 21:56:00.115 [java] [DEBUG] Scanning packages for hooks
+17-01-2021 21:56:00.125 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+17-01-2021 21:56:00.126 [java] [DEBUG] 	Click Sign in : public void ClickOnSignInButton()
+17-01-2021 21:56:00.126 [java] [DEBUG] 	Enter Email {} : public void EnterTheEmail(String email)
+17-01-2021 21:56:00.126 [java] [DEBUG] 	Enter Password {} : public void EnterThePassword(String password)
+17-01-2021 21:56:00.126 [java] [DEBUG] 	Invoke the Driver to launch AutomationPractice : public void before()
+17-01-2021 21:56:00.126 [java] [DEBUG] 	Click on Sign in button : public void ClickTheSignInButton()
+17-01-2021 21:56:02.345 [Gauge] [DEBUG] Validation completed.
+17-01-2021 21:56:02.346 [Gauge] [DEBUG] Run started
+17-01-2021 21:56:02.348 [Gauge] [DEBUG] Starting Html Report plugin
+17-01-2021 21:56:02.500 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61285
+17-01-2021 21:56:02.502 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61285
+17-01-2021 21:56:02.502 [Gauge] [DEBUG] Initialising suite data store.
+17-01-2021 21:56:02.596 [java] [DEBUG] Executing 'Invoke the Driver to launch AutomationPractice' using 'class apppack.HomeStepImpl.before
+17-01-2021 21:56:03.995 [java] [ERROR] Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 25402
+17-01-2021 21:56:03.995 [java] [ERROR] Only local connections are allowed.
+17-01-2021 21:56:03.995 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+17-01-2021 21:56:04.005 [java] [ERROR] ChromeDriver was started successfully.
+17-01-2021 21:56:09.090 [java] [ERROR] Jan 17, 2021 9:56:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+17-01-2021 21:56:09.090 [java] [ERROR] INFO: Detected dialect: W3C
+17-01-2021 21:56:16.974 [java] [DEBUG] Executing 'Click on Sign in button' using 'class apppack.HomeStepImpl.ClickTheSignInButton
+17-01-2021 21:56:19.161 [java] [DEBUG] Executing 'Enter Email {}' using 'class apppack.HomeStepImpl.EnterTheEmail
+17-01-2021 21:56:19.361 [java] [DEBUG] Executing 'Enter Password {}' using 'class apppack.HomeStepImpl.EnterThePassword
+17-01-2021 21:56:19.491 [java] [DEBUG] Executing 'Click Sign in' using 'class apppack.HomeStepImpl.ClickOnSignInButton
+17-01-2021 21:56:21.751 [html-report] [DEBUG] Transformed SuiteResult to report structure
+17-01-2021 21:56:22.018 [html-report] [INFO] Successfully generated html-report to => C:\Automation\5_Git_Gauge_Project\reports\html-report\index.html
+17-01-2021 21:56:22.019 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Dell\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+17-01-2021 21:56:22.019 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+17-01-2021 21:56:24.071 [Gauge] [DEBUG] Runner with PID:31456 has exited
+17-01-2021 21:56:24.071 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+17-01-2021 21:56:24.071 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+17-01-2021 21:56:24.102 [Gauge] [INFO] 
+Total time taken: 19.291s
+17-01-2021 21:56:24.104 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+17-01-2021 22:11:06.034 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Automation\5_Git_Gauge_Project\.gauge\screenshots
+17-01-2021 22:11:06.036 [Gauge] [DEBUG] Plugin java is already installed.
+17-01-2021 22:11:06.036 [Gauge] [DEBUG] Plugin html-report is already installed.
+17-01-2021 22:11:06.037 [Gauge] [DEBUG] Parsing started.
+17-01-2021 22:11:06.037 [Gauge] [DEBUG] Started concepts parsing.
+17-01-2021 22:11:06.042 [Gauge] [DEBUG] 1 concepts parsing completed.
+17-01-2021 22:11:06.042 [Gauge] [DEBUG] Started specifications parsing.
+17-01-2021 22:11:06.043 [Gauge] [DEBUG] 1 specifications parsing completed.
+17-01-2021 22:11:06.043 [Gauge] [DEBUG] Parsing completed.
+17-01-2021 22:11:07.889 [Gauge] [DEBUG] Checking updates...
+17-01-2021 22:11:07.892 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 22:11:08.142 [java] [DEBUG] multithreading is set to false
+17-01-2021 22:11:08.188 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 22:11:08.266 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+17-01-2021 22:11:08.571 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+17-01-2021 22:11:08.698 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+17-01-2021 22:11:08.698 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+17-01-2021 22:11:08.698 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+17-01-2021 22:11:09.280 [java] [DEBUG] gauge-java took 1126milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+17-01-2021 22:11:09.280 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1126
+17-01-2021 22:11:09.280 [java] [DEBUG] starting gRPC server...
+17-01-2021 22:11:09.649 [java] [DEBUG] started gRPC server on port 61477
+17-01-2021 22:11:09.650 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61477
+17-01-2021 22:11:09.879 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61477
+17-01-2021 22:11:09.879 [Gauge] [DEBUG] Validation started.
+17-01-2021 22:11:13.637 [java] [DEBUG] Scanning packages for steps
+17-01-2021 22:11:13.754 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.before' and 'apppack.HomeStepImpl.before'
+17-01-2021 22:11:13.754 [java] [DEBUG] Found Invoke the Driver to launch AutomationPractice in current project scope.
+17-01-2021 22:11:13.754 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickOnSignInButton' and 'apppack.HomeStepImpl.ClickOnSignInButton'
+17-01-2021 22:11:13.754 [java] [DEBUG] Found Click Sign in in current project scope.
+17-01-2021 22:11:13.754 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.ClickTheSignInButton' and 'apppack.HomeStepImpl.ClickTheSignInButton'
+17-01-2021 22:11:13.754 [java] [DEBUG] Found Click on Sign in button in current project scope.
+17-01-2021 22:11:13.754 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterThePassword' and 'apppack.HomeStepImpl.EnterThePassword'
+17-01-2021 22:11:13.754 [java] [DEBUG] Found Enter Password {} in current project scope.
+17-01-2021 22:11:13.754 [java] [DEBUG] Comparing 'apppack.HomeStepImpl.EnterTheEmail' and 'apppack.HomeStepImpl.EnterTheEmail'
+17-01-2021 22:11:13.754 [java] [DEBUG] Found Enter Email {} in current project scope.
+17-01-2021 22:11:13.754 [java] [DEBUG] Scanning packages for hooks
+17-01-2021 22:11:13.754 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+17-01-2021 22:11:13.754 [java] [DEBUG] 	Click Sign in : public void ClickOnSignInButton()
+17-01-2021 22:11:13.754 [java] [DEBUG] 	Enter Email {} : public void EnterTheEmail(String email)
+17-01-2021 22:11:13.754 [java] [DEBUG] 	Enter Password {} : public void EnterThePassword(String password)
+17-01-2021 22:11:13.754 [java] [DEBUG] 	Invoke the Driver to launch AutomationPractice : public void before()
+17-01-2021 22:11:13.754 [java] [DEBUG] 	Click on Sign in button : public void ClickTheSignInButton()
+17-01-2021 22:11:16.274 [Gauge] [DEBUG] Validation completed.
+17-01-2021 22:11:16.347 [Gauge] [DEBUG] Run started
+17-01-2021 22:11:16.348 [Gauge] [DEBUG] Starting Html Report plugin
+17-01-2021 22:11:16.663 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61480
+17-01-2021 22:11:16.665 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61480
+17-01-2021 22:11:16.665 [Gauge] [DEBUG] Initialising suite data store.
+17-01-2021 22:11:16.857 [java] [DEBUG] Executing 'Invoke the Driver to launch AutomationPractice' using 'class apppack.HomeStepImpl.before
+17-01-2021 22:11:19.818 [java] [ERROR] Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 26065
+17-01-2021 22:11:19.818 [java] [ERROR] Only local connections are allowed.
+17-01-2021 22:11:19.818 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+17-01-2021 22:11:19.825 [java] [ERROR] ChromeDriver was started successfully.
+17-01-2021 22:11:36.726 [java] [ERROR] Jan 17, 2021 10:11:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+17-01-2021 22:11:36.726 [java] [ERROR] INFO: Detected dialect: W3C
+17-01-2021 22:11:46.491 [java] [DEBUG] Executing 'Click on Sign in button' using 'class apppack.HomeStepImpl.ClickTheSignInButton
+17-01-2021 22:11:48.977 [java] [DEBUG] Executing 'Enter Email {}' using 'class apppack.HomeStepImpl.EnterTheEmail
+17-01-2021 22:11:49.273 [java] [DEBUG] Executing 'Enter Password {}' using 'class apppack.HomeStepImpl.EnterThePassword
+17-01-2021 22:11:49.542 [java] [DEBUG] Executing 'Click Sign in' using 'class apppack.HomeStepImpl.ClickOnSignInButton
+17-01-2021 22:11:52.875 [html-report] [DEBUG] Transformed SuiteResult to report structure
+17-01-2021 22:11:54.045 [html-report] [INFO] Successfully generated html-report to => C:\Automation\5_Git_Gauge_Project\reports\html-report\index.html
+17-01-2021 22:11:54.045 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+17-01-2021 22:11:54.045 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Dell\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+17-01-2021 22:11:56.259 [Gauge] [DEBUG] Runner with PID:27652 has exited
+17-01-2021 22:11:56.259 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+17-01-2021 22:11:56.259 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+17-01-2021 22:11:56.280 [Gauge] [INFO] 
+Total time taken: 36.306s
+17-01-2021 22:11:56.281 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
